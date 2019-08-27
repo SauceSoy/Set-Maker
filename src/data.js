@@ -1,7 +1,7 @@
 var loomians = {
     embit: {
         name: "Embit",
-        number:001,
+        number: 01,
         types: ["Fire"],
         baseStats: {
             hp: 57,
@@ -1166,6 +1166,13 @@ var moves = {
         power: 80,
         type: "Dark",
         mr: "Melee",
+    },
+    
+    luminousRoar: {
+        name: "Luminous Roar",
+        power: 75,
+        type: "Light",
+        mr: "Ranged",
     },
     
     fireSlam: {

@@ -1651,4 +1651,3 @@ for (let ty in types) {
     items.push(ty.charAt(0).toUpperCase() + ty.slice(1) + " Essence");
 }
 
-var sets = [];

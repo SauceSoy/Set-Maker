@@ -834,7 +834,7 @@ var moves = {
     },      
 
     chillyChomp: {
-        name: "Chilly Comp",
+        name: "Chilly Chomp",
         power: 65,
         type: "Ice",
         mr: "Melee"
@@ -909,7 +909,8 @@ var moves = {
         name: "Holy Slash",
         power: 75,
         type: "Metal",
-        mr: "Melee"
+        mr: "Melee",
+        typeModifier: {type: "Dark", modifier: 2}
     },      
 
     muckBuck: {
@@ -952,7 +953,8 @@ var moves = {
         name: "Slap Down",
         power: 65,
         type: "Dark",
-        mr: "Melee"
+        mr: "Melee",
+        knockOff: true
     },      
 
     startle: {
@@ -1071,7 +1073,8 @@ var moves = {
         name: "Searing Steel",
         power: 85,
         type: "Metal",
-        mr: "Melee"
+        mr: "Melee",
+        typeModifier: {type: "Water", modifier: 2}
     },
 
     wintersFury: {
@@ -1228,7 +1231,7 @@ var moves = {
 
     pheroblast: {
         name: "Pheroblast",
-        pwoer: 90,
+        power: 90,
         type: "Bug",
         mr: "Ranged",
     },
@@ -1548,7 +1551,7 @@ var types = {
 
     fire: {
         weaknesses: ["water", "earth", "air"],
-        resistances: ["fire", "plant", "ice"],
+        resistances: ["fire", "plant", "ice", "metal", "bug"],
         immunities: []
     },
     
@@ -1643,11 +1646,270 @@ var types = {
     },    
 };
 
-var abilities = ["Awakening", "Ambush", "Coursing Venom", "Lightning Rod", "Mean Spirited", "Neutralize", "Overshadow", "Illuminate", "Prismatic", "Territorial", "Woodsman", "Dusk", "Dawn"];
+var abilities = ["Awakening", "Ambush", "Coursing Venom", "Drainage", "Lightning Rod", "Mean Spirited", "Neutralize", "Overshadow", "Illuminate", "Prismatic", "Territorial", "Woodsman", "Dusk", "Dawn"];
 
-var items = ["Heavy Shield", "Heavy Armor", "Power Cuffs"];
+var items = ["Heavy Shield", "Heavy Armor", "Power Cuffs", "Health Amulet", "Drain Orb"];
 
 for (let ty in types) {
     items.push(ty.charAt(0).toUpperCase() + ty.slice(1) + " Essence");
 }
 
+var sets = [];
+
+var builtInSets = [
+    {
+        name: "Searknight",
+        setName: "Wallbreaker",
+        evs: {
+            hp: 132,
+            attack: 200,
+            defense: 0,
+            attackR: 0,
+            defenseR: 0,
+            speed: 168
+        },
+        ivs: {
+            hp: 40,
+            attack: 40,
+            defense: 40,
+            attackR: 40,
+            defenseR: 40,
+            speed: 40
+        },
+        moves: {
+            move1: "Searing Steel",
+            move2: "Flaming Kick",
+            move3: "Power Focus",
+            move4: "Fire Slam"
+        },
+        posNature: "brawny",
+        negNature: "none",
+        ability: "Awakening",
+        item: "Power Cuffs",
+        level: 100        
+    },
+
+    {
+        name: "Luminami",
+        setName: "Stall",
+        evs: {
+            hp: 200,
+            attack: 0,
+            defense: 200,
+            attackR: 0,
+            defenseR: 100,
+            speed: 0
+        },
+        ivs: {
+            hp: 40,
+            attack: 40,
+            defense: 40,
+            attackR: 40,
+            defenseR: 40,
+            speed: 40
+        },
+        moves: {
+            move1: "Maroon",
+            move2: "Flash Pulse",
+            move3: "Soft Water",
+            move4: "Dodge"
+        },
+        posNature: "robust",
+        negNature: "none",
+        ability: "Awakening",
+        item: "Health Amulet",
+        level: 100        
+    },
+
+    {
+        name: "Tahtab",
+        setName: "Wallbreaker",
+        evs: {
+            hp: 0,
+            attack: 200,
+            defense: 0,
+            attackR: 196,
+            defenseR: 0,
+            speed: 104
+        },
+        ivs: {
+            hp: 40,
+            attack: 40,
+            defense: 40,
+            attackR: 40,
+            defenseR: 40,
+            speed: 40
+        },
+        moves: {
+            move1: "Junglejutsu",
+            move2: "Nature's Force",
+            move3: "Life Drain",
+            move4: "Dodge"
+        },
+        posNature: "brawny",
+        negNature: "none",
+        ability: "Awakening",
+        item: "Power Cuffs",
+        level: 100        
+    },
+    
+    {
+        name: "Falkyrie",
+        setName: "Wallbreaker",
+        evs: {
+            hp: 60,
+            attack: 0,
+            defense: 0,
+            attackR: 200,
+            defenseR: 64,
+            speed: 176
+        },
+        ivs: {
+            hp: 40,
+            attack: 40,
+            defense: 40,
+            attackR: 40,
+            defenseR: 40,
+            speed: 40
+        },
+        moves: {
+            move1: "Gamma Pulse",
+            move2: "Holy Slash",
+            move3: "Power Focus",
+            move4: "Cyclone Slam"
+        },
+        posNature: "smart",
+        negNature: "none",
+        ability: "Awakening",
+        item: "Heavy Shield",
+        level: 100        
+    },
+    
+    {
+        name: "Vesperatu",
+        setName: "Defensive",
+        evs: {
+            hp: 200,
+            attack: 0,
+            defense: 0,
+            attackR: 0,
+            defenseR: 156,
+            speed: 144
+        },
+        ivs: {
+            hp: 40,
+            attack: 40,
+            defense: 40,
+            attackR: 40,
+            defenseR: 40,
+            speed: 40
+        },
+        moves: {
+            move1: "Revival",
+            move2: "Shadow Sprint",
+            move3: "Bamboozle",
+            move4: "Blood Drain"
+        },
+        posNature: "clever",
+        negNature: "none",
+        ability: "Awakening",
+        item: "Health Amulet",
+        level: 100        
+    },
+    
+    {
+        name: "Himbrr",
+        setName: "Icicle Trapper",
+        evs: {
+            hp: 200,
+            attack: 100,
+            defense: 0,
+            attackR: 0,
+            defenseR: 200,
+            speed: 0
+        },
+        ivs: {
+            hp: 40,
+            attack: 40,
+            defense: 40,
+            attackR: 40,
+            defenseR: 40,
+            speed: 40
+        },
+        moves: {
+            move1: "Icicle Trap",
+            move2: "Yeti's Wrath",
+            move3: "Winter's Fury",
+            move4: "Quick Punch"
+        },
+        posNature: "clever",
+        negNature: "none",
+        ability: "Awakening",
+        item: "Health Amulet",
+        level: 100        
+    },
+    
+    {
+        name: "Zuelong",
+        setName: "Pivot",
+        evs: {
+            hp: 100,
+            attack: 0,
+            defense: 0,
+            attackR: 200,
+            defenseR: 0,
+            speed: 200
+        },
+        ivs: {
+            hp: 40,
+            attack: 40,
+            defense: 40,
+            attackR: 40,
+            defenseR: 40,
+            speed: 40
+        },
+        moves: {
+            move1: "Ancient Roar",
+            move2: "Thunderstrike",
+            move3: "Elemental Burst",
+            move4: "Thunder Slam"
+        },
+        posNature: "clever",
+        negNature: "none",
+        ability: "Awakening",
+        item: "None",
+        level: 100        
+    },
+    
+    {
+        name: "Duskit",
+        setName: "Peace of Mind",
+        evs: {
+            hp: 100,
+            attack: 0,
+            defense: 0,
+            attackR: 200,
+            defenseR: 0,
+            speed: 200
+        },
+        ivs: {
+            hp: 40,
+            attack: 40,
+            defense: 40,
+            attackR: 40,
+            defenseR: 40,
+            speed: 40
+        },
+        moves: {
+            move1: "Spectral Burst",
+            move2: "Brainwash",
+            move3: "Peace Of Mind",
+            move4: "Final Ruse"
+        },
+        posNature: "nimble",
+        negNature: "none",
+        ability: "Awakening",
+        item: "Power Cuffs",
+        level: 100        
+    }      
+];

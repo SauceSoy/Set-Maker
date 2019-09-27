@@ -1,7 +1,7 @@
 var body = document.getElementById("body");
 var table;
 var headerNames = ["", "", "UPs", "TPs", "Personality", "", "", "", "Moves"];
-var subHeaderNames = ["Loomian", "Set Name", "HP", "Attack", "Defense", "Attack R", "Defense R", "Speed", "HP", "Attack", "Defense", "Attack R", "Defense R", "Speed", "+", "-", "Ability", "Item", "Level", "Move 1", "Move 2", "Move 3", "Move 4"]
+var subHeaderNames = ["Loomian", "Set Name", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "+", "-", "Ability", "Item", "Level", "Move 1", "Move 2", "Move 3", "Move 4"]
 let allElements = [];
 
 function createTable() {
@@ -18,7 +18,7 @@ function createTable() {
         let th = document.createElement("th");
         th.appendChild(document.createTextNode(k));
         if (k == "UPs" || k == "TPs") {
-            th.colSpan = 6;
+            th.colSpan = 7;
         }
         if (k == "Personality") {
             th.colSpan = 2;
@@ -63,8 +63,11 @@ function saveSets() {
 
     if (Object.keys(sets).length != 0) {
         let json = JSON.stringify(sets);
-        let decoded = btoa(json);
-        document.getElementById("export").value = decoded;
+        let encoded = btoa(json);
+        document.getElementById("export").value = encoded;
+        document.getElementById("export").select();
+        document.execCommand("copy");
+        alert("Copied to clipbord");
     }
 }
 function createSet(row) {
@@ -75,32 +78,34 @@ function createSet(row) {
 
     set.ivs = {};
     set.ivs.hp = row[2].value;
-    set.ivs.attack = row[3].value;
-    set.ivs.defense = row[4].value;
-    set.ivs.attackR = row[5].value;
-    set.ivs.defenseR = row[6].value;
-    set.ivs.speed = row[7].value;
+    set.ivs.energy = row[3].value;
+    set.ivs.attack = row[4].value;
+    set.ivs.defense = row[5].value;
+    set.ivs.attackR = row[6].value;
+    set.ivs.defenseR = row[7].value;
+    set.ivs.speed = row[8].value;
 
     set.evs = {};
-    set.evs.hp = row[8].value;
-    set.evs.attack = row[9].value;
-    set.evs.defense = row[10].value;
-    set.evs.attackR = row[11].value;
-    set.evs.defenseR = row[12].value;
-    set.evs.speed = row[13].value;
+    set.evs.hp = row[9].value;
+    set.evs.energy = row[10].value;
+    set.evs.attack = row[11].value;
+    set.evs.defense = row[12].value;
+    set.evs.attackR = row[13].value;
+    set.evs.defenseR = row[14].value;
+    set.evs.speed = row[15].value;
     
-    set.posNature = row[14].value;
-    set.negNature = row[15].value;
+    set.posNature = row[16].value;
+    set.negNature = row[17].value;
 
-    set.ability = row[16].value;
-    set.item = row[17].value;
-    set.level = row[18].value;
+    set.ability = row[18].value;
+    set.item = row[19].value;
+    set.level = row[20].value;
 
     set.moves = {};
-    set.moves.move1 = row[19].value;
-    set.moves.move2 = row[20].value;
-    set.moves.move3 = row[21].value;
-    set.moves.move4 = row[22].value;
+    set.moves.move1 = row[21].value;
+    set.moves.move2 = row[22].value;
+    set.moves.move3 = row[23].value;
+    set.moves.move4 = row[24].value;
 
     return set;
 }
@@ -118,6 +123,7 @@ function createRow() {
     let setNameInput = createTextInput();
     
     let hpEV = createInput(0, 200);
+    let energyEV = createInput(0, 200);
     let atkEV = createInput(0, 200);
     let defEV = createInput(0, 200);
     let atkREV = createInput(0, 200);
@@ -125,6 +131,7 @@ function createRow() {
     let spdEV = createInput(0, 200);
 
     let hpIV = createInput(0, 40);
+    let energyIV = createInput(0, 40);
     let atkIV = createInput(0, 40);
     let defIV = createInput(0, 40);
     let atkRIV = createInput(0, 40);
@@ -145,7 +152,7 @@ function createRow() {
     let moveThree = createMoveDropdown();
     let moveFour = createMoveDropdown();
 
-    elements.push(pokeDropdown, setNameInput, hpIV, atkIV, defIV, atkRIV, defRIV, spdIV, hpEV, atkEV, defEV, atkREV, defREV, spdEV);
+    elements.push(pokeDropdown, setNameInput, hpIV, energyIV, atkIV, defIV, atkRIV, defRIV, spdIV, hpEV, energyEV, atkEV, defEV, atkREV, defREV, spdEV);
     elements.push(posNat, negNat, abilityDropdown, itemDropdown, level, moveOne, moveTwo, moveThree, moveFour);
 
     allElements.push(elements);

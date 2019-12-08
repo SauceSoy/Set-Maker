@@ -383,6 +383,22 @@ var loomians = {
         }
     },
 
+    tiklipse: {
+        name: "Tiklipse",
+        number: 25,
+        types: ["Light", "Dark"], 
+        weight: 42,
+        baseStats: {
+            hp: 85,
+            energy: 80,
+            attack: 51,
+            defense: 84,
+            attackR: 116,
+            defenseR: 83,
+            speed: 96
+        }
+    },
+
     cathorn: {
         name: "Cathorn",
         number: 26,
@@ -773,11 +789,11 @@ var loomians = {
         types: ["Mind"], 
         weight: 19,
         baseStats: {
-            hp: 61,
-            energy: 80,
+            hp: 79,
+            energy: 91,
             attack: 36,
             defense: 42,
-            attackR: 85,
+            attackR: 99,
             defenseR: 64,
             speed: 89
         }
@@ -1052,6 +1068,86 @@ var loomians = {
             attackR: 67,
             defenseR: 65,
             speed: 65
+        }
+    },
+
+    cafnotef: {
+        name: "CafnoteF",
+        number: 69,
+        types: ["Typeless"], 
+        weight: 57,
+        baseStats: {
+            hp: 60,
+            energy: 60,
+            attack: 42,
+            defense: 58,
+            attackR: 42,
+            defenseR: 62,
+            speed: 53
+        }
+    },
+
+    cafnotem: {
+        name: "CafnoteM",
+        number: 69,
+        types: ["Typeless"], 
+        weight: 57,
+        baseStats: {
+            hp: 60,
+            energy: 60,
+            attack: 42,
+            defense: 62,
+            attackR: 42,
+            defenseR: 58,
+            speed: 53
+        }
+    },
+
+    trumbull: {
+        name: "Trumbull",
+        number: 70,
+        types: ["Typeless"], 
+        weight: 187,
+        baseStats: {
+            hp: 92,
+            energy: 75,
+            attack: 134,
+            defense: 102,
+            attackR: 42,
+            defenseR: 62,
+            speed: 73
+        }
+    },
+
+    mootune: {
+        name: "Mootune",
+        number: 71,
+        types: ["Typeless"], 
+        weight: 146,
+        baseStats: {
+            hp: 92,
+            energy: 75,
+            attack: 42,
+            defense: 73,
+            attackR: 134,
+            defenseR: 102,
+            speed: 62
+        }
+    },
+
+    gobbidemic: {
+        name: "Gobbidemic",
+        number: 72,
+        types: ["Toxic"], 
+        weight: 43,
+        baseStats: {
+            hp: 70,
+            energy: 80,
+            attack: 15,
+            defense: 60,
+            attackR: 88,
+            defenseR: 64,
+            speed: 123
         }
     },
 
@@ -1565,7 +1661,8 @@ var moves = {
         power: 60,
         type: "Typeless",
         mr: "Melee",
-        contact: true
+        contact: true,
+        secondaryEffect: true
     },
 
     wingSlap: {
@@ -1728,6 +1825,7 @@ var moves = {
         power: 75,
         type: "Light",
         mr: "Ranged",
+        sound: true
     },
 
     fireSlam: {
@@ -1814,7 +1912,8 @@ var moves = {
         name: "Raging Howl",
         power: 120,
         type: "Typeless",
-        mr: "Ranged"
+        mr: "Ranged",
+        sound: true
     },
 
     thunderChomp: {
@@ -1852,7 +1951,7 @@ var moves = {
 
     foulChant: {
         name: "Foul Chant",
-        power: 90,
+        power: 110,
         type: "Mind",
         mr: "Ranged",
         secondaryEffect: true
@@ -1977,6 +2076,60 @@ var moves = {
         power: 75,
         type: "Spirit",
         mr: "Ranged",
+        sound: true,
+        secondaryEffect: true
+    },
+
+    resonate: {
+        name: "Resonate",
+        power: 90,
+        type: "Typeless",
+        mr: "Ranged",
+        sound: true,
+        secondaryEffect: true
+    },
+
+    repeatingTune: {
+        name: "Repeating Tune",
+        power: 25,
+        type: "Typeless",
+        mr: "Ranged",
+        hits: 3,
+        sound: true,
+        secondaryEffect: true
+    },
+
+    gloominousRoar: {
+        name: "Gloominous Roar",
+        power: 85,
+        type: "Typeless",
+        mr: "Ranged",
+        sound: true
+    },
+
+    gobbleGoop: {
+        name: "Gobble Goop",
+        power: 85,
+        type: "Toxic",
+        mr: "Ranged",
+        secondaryEffect: true
+    },
+
+    harmoniousChord: {
+        name: "Harmonious Chord",
+        power: 60,
+        type: "Typeless",
+        mr: "Ranged",
+        sound: true,
+        secondaryEffect: true
+    },
+
+    dissonantChord: {
+        name: "Dissonant Chord",
+        power: 80,
+        type: "Typeless",
+        mr: "Ranged",
+        sound: true,
         secondaryEffect: true
     },
 
@@ -2289,6 +2442,20 @@ var moves = {
         power: 0,
         type: "Fire",
         mr: "Support"
+    },
+
+    battleHorn: {
+        name: "Battle Horn",
+        power: 0,
+        type: "Typeless",
+        mr: "Support"
+    },
+
+    toneBarrier: {
+        name: "Tone Barrier",
+        power: 0,
+        type: "Typeless",
+        mr: "Support"
     }
 };
 
@@ -2398,7 +2565,8 @@ var types = {
 };
 
 var abilities = ["Awakening", "Ambush", "Coursing Venom", "Drainage", "Hasty", "Lightning Rod", "Mean Spirited", "Neutralize", "Overshadow", "Illuminate", "Prismatic", 
-                "Territorial", "Woodsman", "Dusk", "Dawn", "Pyro", "Volcanic", "Combustible", "Noxious Weeds", "Sharp Claws", "Brute Force", "Raging Fire", "Vengeance"];
+                "Territorial", "Woodsman", "Dusk", "Dawn", "Pyro", "Volcanic", "Combustible", "Noxious Weeds", "Sharp Claws", "Brute Force", "Raging Fire", "Vengeance",
+                "Total Eclipse", "Tone Deaf", "Circadian", "Baneful"];
 
 var typeModAbilities = {
     coursingVenom: {
@@ -2453,10 +2621,16 @@ var typeModAbilities = {
         name: "Raging Fire",
         typeModifier: { type: "Fire", modifier: 0},
         powerMod: false
+    },
+
+    totalEclipse: {
+        name: "Total Eclipse",
+        typeModifier: { type: "Light", type2: "Dark", modifier: 0},
+        powerMod: false
     }
 }
 
-var items = ["Heavy Shield", "Heavy Armor", "Power Cuffs", "Health Amulet", "Drain Orb"];
+var items = ["Heavy Shield", "Heavy Armor", "Power Cuffs", "Health Amulet", "Drain Orb", "Mystic Wand"];
 
 for (let ty in types) {
     items.push(ty.charAt(0).toUpperCase() + ty.slice(1) + " Essence");

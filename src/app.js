@@ -1,7 +1,7 @@
 var body = document.getElementById("body");
 var table;
 var headerNames = ["", "", "UPs", "TPs", "Personality", "", "", "", "Moves"];
-var subHeaderNames = ["Loomian", "Set Name", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "+", "-", "Ability", "Item", "Level", "Move 1", "Move 2", "Move 3", "Move 4"]
+var subHeaderNames = ["Loomian", "Set Name", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "1st", "2nd", "3rd", "Ability", "Item", "Level", "Move 1", "Move 2", "Move 3", "Move 4"]
 let allElements = [];
 
 function createTable() {
@@ -21,7 +21,7 @@ function createTable() {
             th.colSpan = 7;
         }
         if (k == "Personality") {
-            th.colSpan = 2;
+            th.colSpan = 3;
         }
         if (k == "Moves") {
             th.colSpan = 4;
@@ -96,16 +96,17 @@ function createSet(row) {
     
     set.posNature = row[16].value;
     set.negNature = row[17].value;
+    set.veryNature = row[18].value;
 
-    set.ability = row[18].value;
-    set.item = row[19].value;
-    set.level = row[20].value;
+    set.ability = row[19].value;
+    set.item = row[20].value;
+    set.level = row[21].value;
 
     set.moves = {};
-    set.moves.move1 = row[21].value;
-    set.moves.move2 = row[22].value;
-    set.moves.move3 = row[23].value;
-    set.moves.move4 = row[24].value;
+    set.moves.move1 = row[22].value;
+    set.moves.move2 = row[23].value;
+    set.moves.move3 = row[24].value;
+    set.moves.move4 = row[25].value;
 
     return set;
 }
@@ -140,6 +141,7 @@ function createRow() {
 
     let posNat = createPosNatureDropdown();
     let negNat = createNegNatureDropdown();
+    let veryNat = createVeryNatureDropdown();
 
     let abilityDropdown = createAbilityDropdown();
     let itemDropdown = createItemyDropdown();
@@ -153,7 +155,7 @@ function createRow() {
     let moveFour = createMoveDropdown();
 
     elements.push(pokeDropdown, setNameInput, hpIV, energyIV, atkIV, defIV, atkRIV, defRIV, spdIV, hpEV, energyEV, atkEV, defEV, atkREV, defREV, spdEV);
-    elements.push(posNat, negNat, abilityDropdown, itemDropdown, level, moveOne, moveTwo, moveThree, moveFour);
+    elements.push(posNat, negNat, veryNat, abilityDropdown, itemDropdown, level, moveOne, moveTwo, moveThree, moveFour);
 
     allElements.push(elements);
 
@@ -211,7 +213,12 @@ function createPosNatureDropdown() {
     dropdown.options[3] = new Option("Smart", "smart");
     dropdown.options[4] = new Option("Clever", "clever");
     dropdown.options[5] = new Option("Nimble", "nimble");
-    dropdown.options[6] = new Option("Indifferent", "indifferent");
+    dropdown.options[6] = new Option("Frail", "frail");
+    dropdown.options[7] = new Option("Tender", "tender");
+    dropdown.options[8] = new Option("Clumsy", "clumsy");
+    dropdown.options[9] = new Option("Foolish", "foolish");
+    dropdown.options[10] = new Option("Sluggish", "sluggish");
+    dropdown.options[11] = new Option("Indifferent", "indifferent");
 
     return dropdown;
 }
@@ -225,11 +232,32 @@ function createNegNatureDropdown() {
     dropdown.options[3] = new Option("Clumsy", "clumsy");
     dropdown.options[4] = new Option("Foolish", "foolish");
     dropdown.options[5] = new Option("Sluggish", "sluggish");
-    dropdown.options[6] = new Option("Indifferent", "indifferent");
+    dropdown.options[6] = new Option("Brawny", "brawny");
+    dropdown.options[7] = new Option("Robust", "robust");
+    dropdown.options[8] = new Option("Smart", "smart");
+    dropdown.options[9] = new Option("Clever", "clever");
+    dropdown.options[10] = new Option("Nimble", "nimble");
+    dropdown.options[11] = new Option("Indifferent", "indifferent");
 
     return dropdown;
 }
 
+function createVeryNatureDropdown() {
+    let dropdown = document.createElement("select");
+    dropdown.options[0] = new Option("None", "none");
+    dropdown.options[1] = new Option("Very Brawny", "vBrawny");
+    dropdown.options[2] = new Option("Very Robust", "vRobust");
+    dropdown.options[3] = new Option("Very Smart", "vSmart");
+    dropdown.options[4] = new Option("Very Clever", "vClever");
+    dropdown.options[5] = new Option("Very Nimble", "vNimble");
+    dropdown.options[6] = new Option("Very Frail", "vFrail");
+    dropdown.options[7] = new Option("Very Tender", "vTender");
+    dropdown.options[8] = new Option("Very Clumsy", "vClumsy");
+    dropdown.options[9] = new Option("Very Foolish", "vFoolish");
+    dropdown.options[10] = new Option("Very Sluggish", "vSluggish");  
+    
+    return dropdown;
+}
 function createAbilityDropdown() {
     let dropdown = document.createElement("select");
 

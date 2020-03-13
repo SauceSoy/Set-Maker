@@ -3,6 +3,8 @@ var loomians = {
         name: "Embit",
         number: 01,
         types: ["Fire"],
+        abilities: ["Awakening"],
+        sAbility: ["Terrifying"],
         weight: 20,
         baseStats: {
             hp: 57,
@@ -19,6 +21,8 @@ var loomians = {
         name: "Rabburn",
         number: 02,
         types: ["Fire"],
+        abilities: ["Awakening"],
+        sAbility: ["Terrifying"],
         weight: 39,
         baseStats: {
             hp: 61,
@@ -35,6 +39,8 @@ var loomians = {
         name: "Searknight",
         number: 03,
         types: ["Fire", "Metal"],
+        abilities: ["Awakening"],
+        sAbility: ["Terrifying"],
         weight: 98,
         baseStats: {
             hp: 88,
@@ -51,6 +57,8 @@ var loomians = {
         name: "Dripple",
         number: 04,
         types: ["Water"],
+        abilities: ["Awakening"],
+        sAbility: ["Power Napper"],
         weight: 17,
         baseStats: {
             hp: 63,
@@ -67,6 +75,8 @@ var loomians = {
         name: "Reptide",
         number: 05,
         types: ["Water"],
+        abilities: ["Awakening"],
+        sAbility: ["Power Napper"],
         weight: 35,
         baseStats: {
             hp: 78,
@@ -83,6 +93,8 @@ var loomians = {
         name: "Luminami",
         number: 06,
         types: ["Water", "Light"],
+        abilities: ["Awakening"],
+        sAbility: ["Power Napper"],
         weight: 91,
         baseStats: {
             hp: 102,
@@ -99,6 +111,8 @@ var loomians = {
         name: "Fevine",
         number: 07,
         types: ["Plant"],
+        abilities: ["Awakening"],
+        sAbility: ["Thriving Pace"],
         weight: 15,
         baseStats: {
             hp: 45,
@@ -114,7 +128,9 @@ var loomians = {
     felver: {
         name: "Felver",
         number: 08,
-        types: ["Plant"], 
+        types: ["Plant"],
+        abilities: ["Awakening"],
+        sAbility: ["Thriving Pace"],
         weight: 37,
         baseStats: {
             hp: 55,
@@ -130,7 +146,9 @@ var loomians = {
     tahtab: {
         name: "Tahtab",
         number: 09,
-        types: ["Plant", "Brawler"], 
+        types: ["Plant", "Brawler"],
+        abilities: ["Awakening"],
+        sAbility: ["Thriving Pace"],
         weight: 74,
         baseStats: {
             hp: 72,
@@ -146,7 +164,9 @@ var loomians = {
     eaglit: {
         name: "Eaglit",
         number: 10,
-        types: ["Light"], 
+        types: ["Light"],
+        abilities: ["Awakening"],
+        sAbility: ["Applied Frustration"],
         weight: 17,
         baseStats: {
             hp: 45,
@@ -162,7 +182,9 @@ var loomians = {
     torprey: {
         name: "Torprey",
         number: 11,
-        types: ["Light"], 
+        types: ["Light"],
+        abilities: ["Awakening"],
+        sAbility: ["Applied Frustration"],
         weight: 25,
         baseStats: {
             hp: 57,
@@ -178,7 +200,9 @@ var loomians = {
     falkyrie: {
         name: "Falkyrie",
         number: 12,
-        types: ["Light", "Metal"], 
+        types: ["Light", "Metal"],
+        abilities: ["Awakening"],
+        sAbility: ["Applied Frustration"],
         weight: 80,
         baseStats: {
             hp: 84,
@@ -194,7 +218,9 @@ var loomians = {
     vambat: {
         name: "Vambat",
         number: 13,
-        types: ["Dark"], 
+        types: ["Dark"],
+        abilities: ["Awakening"],
+        sAbility: ["Sharp Claws"],
         weight: 8,
         baseStats: {
             hp: 47,
@@ -207,10 +233,12 @@ var loomians = {
         }
     },
 
-    dinepire: {
-        name: "Dinpire",
+    dimpire: {
+        name: "Dimpire",
         number: 14,
-        types: ["Dark"], 
+        types: ["Dark"],
+        abilities: ["Awakening"],
+        sAbility: ["Sharp Claws"],
         weight: 30,
         baseStats: {
             hp: 60,
@@ -226,7 +254,9 @@ var loomians = {
     vesperatu: {
         name: "Vesperatu",
         number: 15,
-        types: ["Dark", "Spirit"], 
+        types: ["Dark", "Spirit"],
+        abilities: ["Awakening"],
+        sAbility: ["Sharp Claws"],
         weight: 65,
         baseStats: {
             hp: 76,
@@ -242,7 +272,9 @@ var loomians = {
     snocub: {
         name: "Snocub",
         number: 16,
-        types: ["Ice"], 
+        types: ["Ice"],
+        abilities: ["Awakening"],
+        sAbility: ["Staunch"],
         weight: 6,
         baseStats: {
             hp: 55,
@@ -258,23 +290,27 @@ var loomians = {
     snowki: {
         name: "Snowki",
         number: 17,
-        types: ["Ice"], 
+        types: ["Ice"],
+        abilities: ["Awakening"],
+        sAbility: ["Staunch"],
         weight: 35,
         baseStats: {
-            hp: 55,
+            hp: 65,
             energy: 67,
-            attack: 45,
-            defense: 38,
-            attackR: 67,
-            defenseR: 60,
-            speed: 45
+            attack: 75,
+            defense: 65,
+            attackR: 75,
+            defenseR: 65,
+            speed: 60
         }
     },
 
     himbrr: {
         name: "Himbrr",
         number: 18,
-        types: ["Ice", "Earth"], 
+        types: ["Ice", "Earth"],
+        abilities: ["Awakening"],
+        sAbility: ["Staunch"],
         weight: 108,
         baseStats: {
             hp: 124,
@@ -290,7 +326,9 @@ var loomians = {
     weevolt: {
         name: "Weevolt",
         number: 19,
-        types: ["Electric"], 
+        types: ["Electric"],
+        abilities: ["Awakening"],
+        sAbility: ["Brute Force"],
         weight: 14,
         baseStats: {
             hp: 51,
@@ -306,7 +344,9 @@ var loomians = {
     stozap: {
         name: "Stozap",
         number: 20,
-        types: ["Electric"], 
+        types: ["Electric"],
+        abilities: ["Awakening"],
+        sAbility: ["Brute Force"],
         weight: 33,
         baseStats: {
             hp: 71,
@@ -322,7 +362,9 @@ var loomians = {
     zuelong: {
         name: "Zuelong",
         number: 21,
-        types: ["Electric", "Ancient"], 
+        types: ["Electric", "Ancient"],
+        abilities: ["Awakening"],
+        sAbility: ["Brute Force"],
         weight: 59,
         baseStats: {
             hp: 78,
@@ -338,13 +380,15 @@ var loomians = {
     twilat: {
         name: "Twilat",
         number: 22,
-        types: ["Typeless"], 
+        types: ["Typeless"],
+        abilities: ["Territorial", "Confidence"],
+        sAbility: ["Neutralize"],
         weight: 10,
         baseStats: {
             hp: 50,
             energy: 41,
-            attack: 38,
-            defense: 41,
+            attack: 42,
+            defense: 38,
             attackR: 42,
             defenseR: 38,
             speed: 40
@@ -354,7 +398,9 @@ var loomians = {
     umbrat: {
         name: "Umbrat",
         number: 23,
-        types: ["Dark"], 
+        types: ["Dark"],
+        abilities: ["Dusk", "Confidence"],
+        sAbility: ["Overshadow"],
         weight: 38,
         baseStats: {
             hp: 75,
@@ -370,7 +416,9 @@ var loomians = {
     luxoar: {
         name: "Luxoar",
         number: 24,
-        types: ["Light"], 
+        types: ["Light"],
+        abilities: ["Dawn", "Confidence"],
+        sAbility: ["Illuminate"],
         weight: 37,
         baseStats: {
             hp: 75,
@@ -386,7 +434,9 @@ var loomians = {
     tiklipse: {
         name: "Tiklipse",
         number: 25,
-        types: ["Light", "Dark"], 
+        types: ["Light", "Dark"],
+        abilities: ["Circadian"],
+        sAbility: ["Total Eclipse"],
         weight: 42,
         baseStats: {
             hp: 85,
@@ -402,7 +452,9 @@ var loomians = {
     cathorn: {
         name: "Cathorn",
         number: 26,
-        types: ["Bug"], 
+        types: ["Bug"],
+        abilities: ["Hasty"],
+        sAbility: ["Defensive Priority"],
         weight: 7,
         baseStats: {
             hp: 35,
@@ -418,7 +470,9 @@ var loomians = {
     propae: {
         name: "Propae",
         number: 27,
-        types: ["Bug"], 
+        types: ["Bug"],
+        abilities: ["Hasty"],
+        sAbility: ["Defensive Priority"],
         weight: 14,
         baseStats: {
             hp: 50,
@@ -434,7 +488,9 @@ var loomians = {
     cynamoth: {
         name: "Cynamoth",
         number: 28,
-        types: ["Bug", "Air"], 
+        types: ["Bug", "Air"],
+        abilities: ["Mystery Toxins"],
+        sAbility: ["Flutter"],
         weight: 20,
         baseStats: {
             hp: 60,
@@ -450,7 +506,9 @@ var loomians = {
     twittle: {
         name: "Twittle",
         number: 29,
-        types: ["Air"], 
+        types: ["Air"],
+        abilities: ["Early Bird", "Confidence"],
+        sAbility: ["Rev Up"],
         weight: 7,
         baseStats: {
             hp: 44,
@@ -466,7 +524,9 @@ var loomians = {
     paratweet: {
         name: "Paratweet",
         number: 30,
-        types: ["Air"], 
+        types: ["Air"],
+        abilities: ["Early Bird", "Confidence"],
+        sAbility: ["Rev Up"],
         weight: 15,
         baseStats: {
             hp: 54,
@@ -482,7 +542,9 @@ var loomians = {
     avitross: {
         name: "Avitross",
         number: 31,
-        types: ["Air"], 
+        types: ["Air"],
+        abilities: ["Early Bird", "Confidence"],
+        sAbility: ["Rev Up"],
         weight: 44,
         baseStats: {
             hp: 79,
@@ -498,7 +560,9 @@ var loomians = {
     pyder: {
         name: "Pyder",
         number: 32,
-        types: ["Bug", "Toxic"], 
+        types: ["Bug", "Toxic"],
+        abilities: ["Webbing", "Apprehension"],
+        sAbility: ["Coursing Venom"],
         weight: 7,
         baseStats: {
             hp: 45,
@@ -514,14 +578,16 @@ var loomians = {
     swolder: {
         name: "Swolder",
         number: 33,
-        types: ["Bug", "Toxic"], 
+        types: ["Bug", "Toxic"],
+        abilities: ["Webbing", "Apprehension"],
+        sAbility: ["Coursing Venom"],
         weight: 24,
         baseStats: {
-            hp: 70,
-            energy: 68,
-            attack: 100,
-            defense: 65,
-            attackR: 45,
+            hp: 85,
+            energy: 70,
+            attack: 115,
+            defense: 85,
+            attackR: 10,
             defenseR: 65,
             speed: 65
         }
@@ -530,7 +596,9 @@ var loomians = {
     antsee: {
         name: "Antsee",
         number: 34,
-        types: ["Bug", "Plant"], 
+        types: ["Bug", "Plant"],
+        abilities: ["Mystery Toxins", "Woodsman"],
+        sAbility: ["Drainage"],
         weight: 5,
         baseStats: {
             hp: 55,
@@ -546,7 +614,9 @@ var loomians = {
     florant: {
         name: "Florant",
         number: 35,
-        types: ["Bug", "Plant"], 
+        types: ["Bug", "Plant"],
+        abilities: ["Mystery Toxins", "Woodsman"],
+        sAbility: ["Drainage"],
         weight: 33,
         baseStats: {
             hp: 85,
@@ -562,23 +632,27 @@ var loomians = {
     grubby: {
         name: "Grubby",
         number: 36,
-        types: ["Bug"], 
+        types: ["Bug"],
+        abilities: ["Premonition", "Odd Husk"],
+        sAbility: ["Defensive Priority"],
         weight: 6,
         baseStats: {
-            hp: 60,
+            hp: 35,
             energy: 39,
-            attack: 45,
-            defense: 65,
+            attack: 50,
+            defense: 40,
             attackR: 35,
-            defenseR: 48,
-            speed: 37
+            defenseR: 33,
+            speed: 42
         }
     },
 
     coonucopia: {
         name: "Coonucopia",
         number: 37,
-        types: ["Bug"], 
+        types: ["Bug"],
+        abilities: ["Premonition", "Odd Husk"],
+        sAbility: ["Defensive Priority"],
         weight: 12,
         baseStats: {
             hp: 60,
@@ -586,7 +660,7 @@ var loomians = {
             attack: 45,
             defense: 65,
             attackR: 35,
-            defenseR: 48,
+            defenseR: 65,
             speed: 37
         }
     },
@@ -594,7 +668,9 @@ var loomians = {
     terrafly: {
         name: "Terrafly",
         number: 38,
-        types: ["Bug", "Toxic"], 
+        types: ["Bug", "Toxic"],
+        abilities: ["Ambush", "Odd Husk"],
+        sAbility: ["Bug Fever"],
         weight: 37,
         baseStats: {
             hp: 70,
@@ -610,7 +686,9 @@ var loomians = {
     kleptyke: {
         name: "Kleptyke",
         number: 39,
-        types: ["Dark"], 
+        types: ["Dark"],
+        abilities: ["Burglar", "Apprehension"],
+        sAbility: ["Ability Thief"],
         weight: 14,
         baseStats: {
             hp: 55,
@@ -626,7 +704,9 @@ var loomians = {
     ragoon: {
         name: "Ragoon",
         number: 40,
-        types: ["Dark"], 
+        types: ["Dark"],
+        abilities: ["Burglar", "Apprehension"],
+        sAbility: ["Ability Thief"],
         weight: 30,
         baseStats: {
             hp: 90,
@@ -642,7 +722,9 @@ var loomians = {
     babore: {
         name: "Babore",
         number: 41,
-        types: ["Earth"], 
+        types: ["Earth"],
+        abilities: ["Boast"],
+        sAbility: ["Resillience"],
         weight: 21,
         baseStats: {
             hp: 62,
@@ -658,7 +740,9 @@ var loomians = {
     boarrok: {
         name: "Boarrok",
         number: 42,
-        types: ["Earth"], 
+        types: ["Earth"],
+        abilities: ["Boast"],
+        sAbility: ["Resillience"],
         weight: 53,
         baseStats: {
             hp: 92,
@@ -674,7 +758,9 @@ var loomians = {
     geklow: {
         name: "Geklow",
         number: 43,
-        types: ["Electric", "Light"], 
+        types: ["Electric", "Light"],
+        abilities: ["Lightning Rod", "Radiance"],
+        sAbility: ["Prismatic"],
         weight: 17,
         baseStats: {
             hp: 50,
@@ -687,10 +773,30 @@ var loomians = {
         }
     },
 
+    eleguana: {
+        name: "Eleguana",
+        number: 44,
+        types: ["Electric", "Light"],
+        abilities: ["Lightning Rod", "Radiance"],
+        sAbility: ["Prismatic"],
+        weight: 57,
+        baseStats: {
+            hp: 80,
+            energy: 80,
+            attack: 50,
+            defense: 85,
+            attackR: 80,
+            defenseR: 115,
+            speed: 80
+        }
+    },
+
     slugling: {
         name: "Slugling",
         number: 45,
-        types: ["Plant"], 
+        types: ["Plant"],
+        abilities: ["Mystery Toxins", "Ungracious Host"],
+        sAbility: ["Slimy"],
         weight: 12,
         baseStats: {
             hp: 70,
@@ -706,7 +812,9 @@ var loomians = {
     escargrow: {
         name: "Escargrow",
         number: 46,
-        types: ["Plant"], 
+        types: ["Plant"],
+        abilities: ["Mystery Toxins", "Ungracious Host"],
+        sAbility: ["Slimy"],
         weight: 30,
         baseStats: {
             hp: 90,
@@ -722,7 +830,9 @@ var loomians = {
     gastroak: {
         name: "Gastroak",
         number: 47,
-        types: ["Plant"], 
+        types: ["Plant"],
+        abilities: ["Mystery Toxins", "Ungracious Host"],
+        sAbility: ["Slimy"],
         weight: 130,
         baseStats: {
             hp: 115,
@@ -738,7 +848,9 @@ var loomians = {
     kabunga: {
         name: "Kabunga",
         number: 48,
-        types: ["Plant"], 
+        types: ["Plant"],
+        abilities: ["Communication", "Territorial"],
+        sAbility: ["Noxious Weeds"],
         weight: 24,
         baseStats: {
             hp: 52,
@@ -754,7 +866,9 @@ var loomians = {
     wikiwiki: {
         name: "WikiWiki",
         number: 49,
-        types: ["Plant"], 
+        types: ["Plant"],
+        abilities: ["Communication", "Chaperone"],
+        sAbility: ["Noxious Weeds"],
         weight: 117,
         baseStats: {
             hp: 152,
@@ -770,15 +884,17 @@ var loomians = {
     chartiki: {
         name: "Chartiki",
         number: 50,
-        types: ["Plant", "Fire"], 
+        types: ["Plant", "Fire"],
+        abilities: ["Communication", "Territorial"],
+        sAbility: ["Noxious Weeds"],
         weight: 81,
         baseStats: {
             hp: 98,
             energy: 104,
-            attack: 55,
-            defense: 55,
+            attack: 15,
+            defense: 75,
             attackR: 103,
-            defenseR: 55,
+            defenseR: 75,
             speed: 62
         }
     },
@@ -786,7 +902,9 @@ var loomians = {
     shawchi: {
         name: "Shawchi",
         number: 51,
-        types: ["Mind"], 
+        types: ["Mind"],
+        abilities: ["Enchant"],
+        sAbility: ["Sharp Focus"],
         weight: 19,
         baseStats: {
             hp: 79,
@@ -802,7 +920,9 @@ var loomians = {
     rakrawla: {
         name: "Rakrawla",
         number: 52,
-        types: ["Earth"], 
+        types: ["Earth"],
+        abilities: ["Clutch", "Hasty"],
+        sAbility: ["Lazy"],
         weight: 15,
         baseStats: {
             hp: 75,
@@ -818,7 +938,9 @@ var loomians = {
     sedimars: {
         name: "Sedimars",
         number: 53,
-        types: ["Earth"], 
+        types: ["Earth"],
+        abilities: ["Clutch", "Hasty"],
+        sAbility: ["Lazy"],
         weight: 106,
         baseStats: {
             hp: 107,
@@ -834,7 +956,9 @@ var loomians = {
     gumpod: {
         name: "Gumpod",
         number: 54,
-        types: ["Water"], 
+        types: ["Water"],
+        abilities: ["Protective Shell"],
+        sAbility: ["Sharp Edges"],
         weight: 5,
         baseStats: {
             hp: 60,
@@ -850,7 +974,9 @@ var loomians = {
     ventacean: {
         name: "Ventacean",
         number: 55,
-        types: ["Water"], 
+        types: ["Water"],
+        abilities: ["Protective Shell"],
+        sAbility: ["Sharp Edges"],
         weight: 104,
         baseStats: {
             hp: 90,
@@ -866,7 +992,9 @@ var loomians = {
     phancub: {
         name: "Phancub",
         number: 56,
-        types: ["Spirit", "Brawler"], 
+        types: ["Spirit", "Brawler"],
+        abilities: ["Sharp Claws"],
+        sAbility: ["Adorable"],
         weight: 8,
         baseStats: {
             hp: 46,
@@ -882,15 +1010,17 @@ var loomians = {
     ursoul: {
         name: "Ursoul",
         number: 57,
-        types: ["Spirit", "Brawler"], 
+        types: ["Spirit", "Brawler"],
+        abilities: ["Sharp Claws"],
+        sAbility: ["Terrifying"],
         weight: 95,
         baseStats: {
-            hp: 72,
+            hp: 99,
             energy: 89,
             attack: 115,
-            defense: 60,
-            attackR: 75,
-            defenseR: 65,
+            defense: 63,
+            attackR: 30,
+            defenseR: 80,
             speed: 75
         }
     },
@@ -898,7 +1028,9 @@ var loomians = {
     whispup: {
         name: "Whispup",
         number: 58,
-        types: ["Spirit", "Fire"], 
+        types: ["Spirit", "Fire"],
+        abilities: ["Temper", "Scorching Skin"],
+        sAbility: ["Vengeance"],
         weight: 1,
         baseStats: {
             hp: 45,
@@ -914,7 +1046,9 @@ var loomians = {
     revenine: {
         name: "Revenine",
         number: 59,
-        types: ["Spirit", "Fire"], 
+        types: ["Spirit", "Fire"],
+        abilities: ["Temper", "Scorching Skin"],
+        sAbility: ["Vengeance"],
         weight: 22,
         baseStats: {
             hp: 60,
@@ -930,7 +1064,9 @@ var loomians = {
     skilava: {
         name: "Skilava",
         number: 60,
-        types: ["Fire"], 
+        types: ["Fire"],
+        abilities: ["Combustible", "Scorching Skin"],
+        sAbility: ["Pyro"],
         weight: 6,
         baseStats: {
             hp: 50,
@@ -946,7 +1082,9 @@ var loomians = {
     geksplode: {
         name: "Geksplode",
         number: 61,
-        types: ["Fire"], 
+        types: ["Fire"],
+        abilities: ["Combustible", "Scorching Skin"],
+        sAbility: ["Pyro"],
         weight: 54,
         baseStats: {
             hp: 65,
@@ -962,7 +1100,9 @@ var loomians = {
     eruptidon: {
         name: "Eruptidon",
         number: 62,
-        types: ["Fire"], 
+        types: ["Fire"],
+        abilities: ["Combustible", "Scorching Skin"],
+        sAbility: ["Pyro"],
         weight: 102,
         baseStats: {
             hp: 81,
@@ -978,7 +1118,9 @@ var loomians = {
     craytal: {
         name: "Craytal",
         number: 63,
-        types: ["Fire"], 
+        types: ["Fire"],
+        abilities: ["Volcanic", "Territorial"],
+        sAbility: ["Combustible"],
         weight: 11,
         baseStats: {
             hp: 76,
@@ -994,7 +1136,9 @@ var loomians = {
     krakaloa: {
         name: "Krakaloa",
         number: 64,
-        types: ["Fire"], 
+        types: ["Fire"],
+        abilities: ["Volcanic", "Territorial"],
+        sAbility: ["Combustible"],
         weight: 155,
         baseStats: {
             hp: 85,
@@ -1010,7 +1154,9 @@ var loomians = {
     volkaloa: {
         name: "Volkaloa",
         number: 65,
-        types: ["Fire", "Ancient"], 
+        types: ["Fire", "Ancient"],
+        abilities: ["Volcanic", "Territorial"],
+        sAbility: ["Combustible"],
         weight: 107,
         baseStats: {
             hp: 81,
@@ -1026,7 +1172,9 @@ var loomians = {
     igneol: {
         name: "Igneol",
         number: 66,
-        types: ["Ancient"], 
+        types: ["Ancient"],
+        abilities: ["Premonition", "Sharp Edges"],
+        sAbility: ["Resillience"],
         weight: 15,
         baseStats: {
             hp: 62,
@@ -1042,7 +1190,9 @@ var loomians = {
     chrysite: {
         name: "Chrysite",
         number: 67,
-        types: ["Ancient"], 
+        types: ["Ancient"],
+        abilities: ["Premonition", "Sharp Edges"],
+        sAbility: ["Resillience"],
         weight: 77,
         baseStats: {
             hp: 82,
@@ -1058,7 +1208,9 @@ var loomians = {
     obsidrugon: {
         name: "Obsidrugon",
         number: 68,
-        types: ["Ancient"], 
+        types: ["Ancient"],
+        abilities: ["Premonition", "Sharp Edges"],
+        sAbility: ["Resillience"],
         weight: 133,
         baseStats: {
             hp: 99,
@@ -1074,7 +1226,9 @@ var loomians = {
     cafnotef: {
         name: "CafnoteF",
         number: 69,
-        types: ["Typeless"], 
+        types: ["Typeless"],
+        abilities: ["Adorable", "Virtuoso"],
+        sAbility: ["Tone Deaf"],
         weight: 57,
         baseStats: {
             hp: 60,
@@ -1090,7 +1244,9 @@ var loomians = {
     cafnotem: {
         name: "CafnoteM",
         number: 69,
-        types: ["Typeless"], 
+        types: ["Typeless"],
+        abilities: ["Territorial", "Virtuoso"],
+        sAbility: ["Brute Force"],
         weight: 57,
         baseStats: {
             hp: 60,
@@ -1106,7 +1262,9 @@ var loomians = {
     trumbull: {
         name: "Trumbull",
         number: 70,
-        types: ["Typeless"], 
+        types: ["Typeless"],
+        abilities: ["Territorial", "Virtuoso"],
+        sAbility: ["Brute Force"],
         weight: 187,
         baseStats: {
             hp: 92,
@@ -1122,7 +1280,9 @@ var loomians = {
     mootune: {
         name: "Mootune",
         number: 71,
-        types: ["Typeless"], 
+        types: ["Typeless"],
+        abilities: ["Adorable", "Virtuoso"],
+        sAbility: ["Tone Deaf"],
         weight: 146,
         baseStats: {
             hp: 92,
@@ -1138,7 +1298,9 @@ var loomians = {
     gobbidemic: {
         name: "Gobbidemic",
         number: 72,
-        types: ["Toxic"], 
+        types: ["Toxic"],
+        abilities: ["Immunized"],
+        sAbility: ["Baneful"],
         weight: 43,
         baseStats: {
             hp: 70,
@@ -1151,26 +1313,83 @@ var loomians = {
         }
     },
 
+    icigool: {
+        name: "Icigool",
+        number: 73,
+        types: ["Spirit", "Ice"],
+        abilities: ["Parting Gift"],
+        weight: 7,
+        baseStats: {
+            hp: 95,
+            energy: 69,
+            attack: 112,
+            defense: 94,
+            attackR: 10,
+            defenseR: 81,
+            speed: 39
+        }
+    },
+
+    pyramind: {
+        name: "Pyramind",
+        number: 74,
+        types: ["Mind"],
+        abilities: ["Idiosyncratic", "Temper"],
+        sAbility: ["Contact Curse"],
+        weight: 113,
+        baseStats: {
+            hp: 88,
+            energy: 60,
+            attack: 45,
+            defense: 69,
+            attackR: 84,
+            defenseR: 99,
+            speed: 35
+        }
+    },
+
+    pharoglyph: {
+        name: "Pharoglyph",
+        number: 75,
+        types: ["Mind"],
+        abilities: ["Idiosyncratic", "Temper"],
+        sAbility: ["Contact Curse"],
+        weight: 166,
+        baseStats: {
+            hp: 88,
+            energy: 95,
+            attack: 50,
+            defense: 50,
+            attackR: 120,
+            defenseR: 101,
+            speed: 106
+        }
+    },
+
     duskit: {
         name: "Duskit",
         number: 192,
-        types: ["Mind", "Spirit"], 
+        types: ["Mind", "Spirit"],
+        abilities: ["Harmonize"],
+        sAbility: ["Mean Spirited"],
         weight: 16,
         baseStats: {
             hp: 74,
-            energy: 91,
+            energy: 100,
             attack: 100,
             defense: 81,
             attackR: 105,
             defenseR: 81,
             speed: 109
         }
-    },    
-    
+    },
+
     ikazune: {
         name: "Ikazune",
         number: 193,
-        types: ["Fire", "Electric"], 
+        types: ["Fire", "Electric"],
+        abilities: ["Raging Fire"],
+        sAbility: ["Rechargeable"],
         weight: 38,
         baseStats: {
             hp: 68,
@@ -1738,7 +1957,7 @@ var moves = {
 
     flashPulse: {
         name: "Flash Pulse",
-        power: 75,
+        power: 85,
         type: "Light",
         mr: "Ranged",
         aoe: true,
@@ -2007,7 +2226,7 @@ var moves = {
 
     savageGreed: {
         name: "Savage Greed",
-        power: 75,
+        power: 95,
         type: "Ancient",
         mr: "Melee",
         contact: true
@@ -2109,7 +2328,7 @@ var moves = {
 
     gobbleGoop: {
         name: "Gobble Goop",
-        power: 85,
+        power: 60,
         type: "Toxic",
         mr: "Ranged",
         secondaryEffect: true
@@ -2131,6 +2350,28 @@ var moves = {
         mr: "Ranged",
         sound: true,
         secondaryEffect: true
+    },
+
+    flabbergast: {
+        name: "Flabbergast",
+        power: 70,
+        type: "Mind",
+        mr: "Ranged",
+        secondaryEffect: true
+    },
+
+    cerebralSlash: {
+        name: "Cerebral Slash",
+        power: 70,
+        type: "Mind",
+        mr: "Melee"
+    },
+
+    flashNFlee: {
+        name: "Flash 'n Flee",
+        power: 40,
+        type: "Light",
+        mr: "Ranged"
     },
 
     //Support Moves -----------------------------------------------------------------------------------------------------------------------------------------
@@ -2456,13 +2697,55 @@ var moves = {
         power: 0,
         type: "Typeless",
         mr: "Support"
+    },
+
+    impersonate: {
+        name: "Impersonate",
+        power: 0,
+        type: "Spirit",
+        mr: "Support"
+    },
+
+    gainDrain: {
+        name: "Gain Drain",
+        power: 0,
+        type: "Dark",
+        mr: "Support"
+    },
+
+    magnify: {
+        name: "Magnify",
+        power: 0,
+        type: "Light",
+        mr: "Support"
+    },
+
+    memorize: {
+        name: "Memorize",
+        power: 0,
+        type: "Mind",
+        mr: "Support"
+    },
+
+    baneOfHaste: {
+        name: "Bane of Haste",
+        power: 0,
+        type: "Ancient",
+        mr: "Support"
+    },
+
+    hypnotize: {
+        name: "Hypnotize",
+        power: 0,
+        type: "Mind",
+        mr: "Suport"
     }
 };
 
 
 var types = {
     typeless: {
-        weaknesses: ["mind"],
+        weaknesses: ["mind", "brawler"],
         resistances: [],
         immunities: []
     },
@@ -2482,7 +2765,7 @@ var types = {
     plant: {
         weaknesses: ["fire", "ice", "dark", "bug", "toxic"],
         resistances: ["plant", "water", "earth", "electric", "light"],
-        immunities: []
+        immunities: ["light"]
     },
 
     electric: {
@@ -2493,7 +2776,7 @@ var types = {
 
     ice: {
         weaknesses: ["fire", "metal", "brawler"],
-        resistances: ["ice", "air"],
+        resistances: ["ice", "air", "typeless"],
         immunities: []
     },
 
@@ -2517,13 +2800,13 @@ var types = {
 
     bug: {
         weaknesses: ["ice", "air", "brawler"],
-        resistances: ["earth", "dark"],
+        resistances: ["earth", "dark", "plant", "bug"],
         immunities: []
     },
 
     metal: {
-        weaknesses: ["fire", "electric", "earth"],
-        resistances: ["air", "bug", "metal", "ancient", "typeless"],
+        weaknesses: ["fire", "electric", "earth", "brawler"],
+        resistances: ["air", "bug", "metal", "ancient", "typeless", "ice", "mind"],
         immunities: []
     },
 
@@ -2541,13 +2824,13 @@ var types = {
 
     spirit: {
         weaknesses: ["light", "ancient", "spirit"],
-        resistances: ["dark", "toxic"],
+        resistances: ["dark", "toxic", "electric", "typeless"],
         immunities: ["brawler"]
     },
 
     mind: {
         weaknesses: ["dark", "bug", "spirit"],
-        resistances: ["light", "mind"],
+        resistances: ["light", "mind", "brawler"],
         immunities: []
     },
 
@@ -2558,7 +2841,7 @@ var types = {
     },
 
     brawler: {
-        weaknesses: ["air", "spirit", "mind"],
+        weaknesses: ["air", "spirit", "mind", "toxic"],
         resistances: ["bug", "ice"],
         immunities: []
     },
@@ -2566,7 +2849,7 @@ var types = {
 
 var abilities = ["Awakening", "Ambush", "Coursing Venom", "Drainage", "Hasty", "Lightning Rod", "Mean Spirited", "Neutralize", "Overshadow", "Illuminate", "Prismatic", 
                 "Territorial", "Woodsman", "Dusk", "Dawn", "Pyro", "Volcanic", "Combustible", "Noxious Weeds", "Sharp Claws", "Brute Force", "Raging Fire", "Vengeance",
-                "Total Eclipse", "Tone Deaf", "Circadian", "Baneful"];
+                "Total Eclipse", "Tone Deaf", "Circadian", "Baneful", "Rechargeable"];
 
 var typeModAbilities = {
     coursingVenom: {
@@ -2622,6 +2905,12 @@ var typeModAbilities = {
         typeModifier: { type: "Fire", modifier: 0},
         powerMod: false
     },
+    
+    rechargeable: {
+        name: "Rechargeable",
+        typeModifier: { type: "Electric", modifier: 0},
+        powerMod: false
+    },
 
     totalEclipse: {
         name: "Total Eclipse",
@@ -2635,3 +2924,7 @@ var items = ["Heavy Shield", "Heavy Armor", "Power Cuffs", "Health Amulet", "Dra
 for (let ty in types) {
     items.push(ty.charAt(0).toUpperCase() + ty.slice(1) + " Essence");
 }
+
+var sets = [];
+
+var changelog = "New Years Update \n •Not an actual update, just wanted to say happy 2020.";

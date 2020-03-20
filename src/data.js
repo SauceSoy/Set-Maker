@@ -2739,6 +2739,13 @@ var moves = {
         power: 0,
         type: "Mind",
         mr: "Suport"
+    },
+    
+    rejuvenate: {
+        name: "Rejuvenate",
+        power: 0,
+        type: "Typeless",
+        mr: "Support"
     }
 };
 

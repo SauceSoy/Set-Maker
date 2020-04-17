@@ -63,7 +63,8 @@ function saveSets() {
 
     if (Object.keys(sets).length != 0) {
         let json = JSON.stringify(sets);
-        let encoded = btoa(json);
+        let pakoStuff = pako.deflate(json, {to: "string"});
+        let encoded = btoa(pakoStuff);
         document.getElementById("export").value = encoded;
         document.getElementById("export").select();
         document.execCommand("copy");
@@ -138,14 +139,6 @@ function createRow() {
     let atkRIV = createInput(0, 40);
     let defRIV = createInput(0, 40);
     let spdIV = createInput(0, 40);
-    
-    hpIV.value = 40;
-    energyIV.value = 40;
-    atkIV.value = 40;
-    defIV.value = 40;
-    atkRIV.value = 40;
-    defRIV.value = 40;
-    spdIV.value = 40;
 
     let posNat = createPosNatureDropdown();
     let negNat = createNegNatureDropdown();
@@ -155,7 +148,7 @@ function createRow() {
     let itemDropdown = createItemyDropdown();
 
     let level = createInput(1, 100);
-    level.value = 50;
+    level.value = 100;
 
     let moveOne = createMoveDropdown();
     let moveTwo = createMoveDropdown();

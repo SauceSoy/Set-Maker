@@ -139,6 +139,14 @@ function createRow() {
     let atkRIV = createInput(0, 40);
     let defRIV = createInput(0, 40);
     let spdIV = createInput(0, 40);
+    
+    hpIV.value = 40;
+    energyIV.value = 40;
+    atkIV.value = 40;
+    defIV.value = 40;
+    atkRIV.value = 40;
+    defRIV.value = 40;
+    spdIV.value = 40;
 
     let posNat = createPosNatureDropdown();
     let negNat = createNegNatureDropdown();
@@ -148,7 +156,7 @@ function createRow() {
     let itemDropdown = createItemyDropdown();
 
     let level = createInput(1, 100);
-    level.value = 100;
+    level.value = 50;
 
     let moveOne = createMoveDropdown();
     let moveTwo = createMoveDropdown();

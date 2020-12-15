@@ -3517,8 +3517,8 @@ var moves = {
         secondaryEffect: true
     },
 
-    thunderPunch: {
-        name: "Thunder Punch",
+    electroPunch: {
+        name: "Electro Punch",
         power: 70,
         type: "Electric",
         mr: "Melee",
@@ -3598,8 +3598,8 @@ var moves = {
         secondaryEffect: true
     },
 
-    piercingDive: {
-        name: "Piercing Dive",
+    piercingDrive: {
+        name: "Piercing Drive",
         power: 75,
         type: "Water",
         mr: "Melee",
@@ -3628,7 +3628,8 @@ var moves = {
         type: "Water",
         mr: "Melee",
         contact: true,
-        secondaryEffect: true
+        secondaryEffect: true,
+        bite: true
     },
 
     thunderClap: {
@@ -4128,7 +4129,7 @@ var moves = {
     baffle: {
         name: "Baffle",
         power: 0,
-        type: "Bug",
+        type: "Dark",
         mr: "Support"
     },
 
@@ -4145,14 +4146,13 @@ var moves = {
         type: "Dark",
         mr: "Support"
     },
-    
+
     bulkUp: {
         name: "Bulk Up",
         power: 0,
         type: "Brawler",
         mr: "Support"
     },
-
 };
 
 
@@ -4263,7 +4263,7 @@ var types = {
 var abilities = ["Awakening", "Ambush", "Coursing Venom", "Drainage", "Hasty", "Lightning Rod", "Mean Spirited", "Neutralize", "Overshadow", "Illuminate", "Prismatic", 
                 "Territorial", "Woodsman", "Dusk", "Dawn", "Pyro", "Volcanic", "Combustible", "Noxious Weeds", "Sharp Claws", "Brute Force", "Raging Fire", "Vengeance",
                 "Total Eclipse", "Tone Deaf", "Circadian", "Baneful", "Rechargeable", "Toxic Filter", "Trash Armor", "Tank", "Power Jaw", "Specialization", "Slick Shell",
-                "Heavy Fists", "Enchanted Coat", "Bloodsucker", "Overcharged", "Watcher", "Sly", "Devious"];
+                "Heavy Fists", "Enchanted Coat", "Bloodsucker", "Overcharged", "Watcher", "Sly", "Devious", "Nightmarish"];
 
 var typeModAbilities = {
     coursingVenom: {

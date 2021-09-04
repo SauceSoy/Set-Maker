@@ -2805,10 +2805,29 @@ var loomians = {
             hp: 104,
             energy: 79,
             attack: 130,
-            defense: 84,
+            defense: 88,
             attackR: 17,
             defenseR: 79,
             speed: 78
+        }
+    },
+
+    buzzolen: {
+        name: "Buzzolen",
+        number: 147,
+        types: ["Bug"],
+        abilities: ["Vigorous", "Sniper"],
+        sAbility: ["Sweet Scent"],
+        weight: 110,
+        height: 77,
+        baseStats: {
+            hp: 69,
+            energy: 100,
+            attack: 99,
+            defense: 75,
+            attackR: 35,
+            defenseR: 96,
+            speed: 101
         }
     },
 
@@ -3075,6 +3094,25 @@ var loomians = {
             attackR: 43,
             defenseR: 68,
             speed: 96
+        }
+    },
+
+    heavybag: {
+        name: "HeavyBag",
+        number: 9999,
+        types: ["Typeless"],
+        abilities: ["Surrogate"],
+        sAbility: ["Idiosyncratic"],
+        weight: 123,
+        height: 200,
+        baseStats: {
+            hp: 450,
+            energy: 1,
+            attack: 1,
+            defense: 100,
+            attackR: 1,
+            defenseR: 100,
+            speed: 1
         }
     },
 
@@ -5266,6 +5304,7 @@ var moves = {
         mr1: "Melee Attack",
         mr2: "Melee Defense",
         contact: true,
+        punch: true,
         secondaryEffect: true
     },
 
@@ -5281,6 +5320,18 @@ var moves = {
         secondaryEffect: true
     },
 
+    banefulBash: {
+        name: "Baneful Bash",
+        power: 85,
+        energy: 45,
+        accuracy: 100,
+        type: "Toxic",
+        mr: "Melee",
+        mr1: "Melee Attack",
+        mr2: "Melee Defense",
+        contact: true,
+        secondaryEffect: true
+    },
 
 
     //Support Moves -----------------------------------------------------------------------------------------------------------------------------------------
@@ -6087,7 +6138,7 @@ var abilities = ["Awakening", "Ambush", "Coursing Venom", "Drainage", "Hasty", "
                 "Total Eclipse", "Tone Deaf", "Circadian", "Baneful", "Rechargeable", "Toxic Filter", "Trash Armor", "Tank", "Power Jaw", "Specialization", "Slick Shell",
                 "Heavy Fists", "Enchanted Coat", "Bloodsucker", "Nightmarish", "Overcharged", "Watcher", "Sly", "Devious", "Ignorant", "Chill", "Vigorous", "Aqua Body",
                 "Idiosyncratic", "Adorable", "Terrifying", "Boast", "Staunch", "Anomaly", "Combative", "Defensive Priority", "Ungracious Host", "Madcap", "Hard Candy",
-                "Incandescent", "Expertise", "Virtuoso", "Sharp Focus", "Turbulent", "Ace"];
+                "Incandescent", "Expertise", "Virtuoso", "Sharp Focus", "Turbulent", "Ace", "Marksman"];
 
 var typeModAbilities = {
     coursingVenom: {

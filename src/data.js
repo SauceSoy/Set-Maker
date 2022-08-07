@@ -3472,6 +3472,64 @@ var loomians = {
             speed: 110
         }
     },
+
+    cinnaboo: {
+        name: "Cinnaboo",
+        number: 140,
+        types: ["Spirit"],
+        abilities: ["Sweet Touch", "Vigilant"],
+        sAbility: ["Shakedown"],
+        weight: 9,
+        height: 19,
+        finalEvo: false,
+        baseStats: {
+            hp: 51,
+            energy: 55,
+            attack: 11,
+            defense: 40,
+            attackR: 63,
+            defenseR: 60,
+            speed: 70
+        }
+    },
+
+    cinnogre: {
+        name: "Cinnogre",
+        number: 140,
+        types: ["Spirit"],
+        abilities: ["Sweet Touch", "Vigilant"],
+        sAbility: ["Shakedown"],
+        weight: 110,
+        height: 70,
+        baseStats: {
+            hp: 112,
+            energy: 99,
+            attack: 35,
+            defense: 61,
+            attackR: 110,
+            defenseR: 81,
+            speed: 77
+        }
+    },
+
+    swirelle: {
+        name: "Swirelle",
+        number: 140,
+        types: ["Air"],
+        abilities: ["Appetite"],
+        sAbility: [],
+        weight: 9,
+        height: 34,
+        baseStats: {
+            hp: 60,
+            energy: 100,
+            attack: 60,
+            defense: 60,
+            attackR: 60,
+            defenseR: 60,
+            speed: 100
+        }
+    },
  
     duskit: {
         name: "Duskit",
@@ -3527,45 +3585,6 @@ var loomians = {
             attackR: 111,
             defenseR: 96,
             speed: 121
-        }
-    },
-
-    cinnaboo: {
-        name: "Cinnaboo",
-        number: 140,
-        types: ["Spirit"],
-        abilities: ["Sweet Touch", "Vigilant"],
-        sAbility: ["Shakedown"],
-        weight: 9,
-        height: 19,
-        finalEvo: false,
-        baseStats: {
-            hp: 45,
-            energy: 65,
-            attack: 44,
-            defense: 37,
-            attackR: 57,
-            defenseR: 39,
-            speed: 85
-        }
-    },
-
-    cinnogre: {
-        name: "Cinnogre",
-        number: 140,
-        types: ["Spirit"],
-        abilities: ["Sweet Touch", "Vigilant"],
-        sAbility: ["Shakedown"],
-        weight: 110,
-        height: 70,
-        baseStats: {
-            hp: 112,
-            energy: 99,
-            attack: 35,
-            defense: 61,
-            attackR: 110,
-            defenseR: 81,
-            speed: 77
         }
     },
 
@@ -5255,7 +5274,7 @@ var moves = {
 
     flashNFlee: {
         name: "Flash 'n Flee",
-        power: 40,
+        power: 70,
         energy: 50,
         accuracy: 100,
         type: "Light",
@@ -5266,7 +5285,7 @@ var moves = {
 
     fadeAway: {
         name: "Fade Away",
-        power: 40,
+        power: 70,
         energy: 50,
         accuracy: 100,
         type: "Spirit",
@@ -6304,7 +6323,7 @@ var moves = {
 
     zipZap: {
         name: "Zip-Zap",
-        power: 40,
+        power: 70,
         energy: 50,
         accuracy: 100,
         type: "Electric",
@@ -7231,7 +7250,7 @@ var abilities = ["Ability Thief", "Ace", "Adorable", "Aggressive", "Ambush", "An
                  "Repugnant", "Resilience", "Rev Up", "Salvage", "Scorching Skin", "Shakedown", "Sharp Claws", "Sharp Edges", "Sharp Focus", "Slick Shell", "Slimy", "Sly", "Specialization", "Staunch",
                  "Sugar Rush", "Surrogate", "Swampy", "Sweet Aroma", "Sweet Touch", "Tank", "Temper", "Terrifying", "Territorial", "Thriving Pace", "Tone Deaf", "Total Eclipse", "Toxic Filter",
                  "Toxic Spines", "Toxic Touch", "Trash Armor", "Turbulent", "Ungracious Host", "Vengeance", "Vigilant", "Vigorous", "Virtuoso", "Vivid Sight", "Volcanic", "Watcher", "Webbing",
-                 "Woodsman", "Two Face", "Insulated", "Wise", "Malware", "Fanning Flame"];
+                 "Woodsman", "Two Face", "Insulated", "Wise", "Malware", "Fanning Flame", "Appetite"];
 
 var typeModAbilities = {
     coursingVenom: {
@@ -7348,4 +7367,4 @@ for (let ty in types) {
 
 var sets = [];
 
-var changelog = "Cinnaboo and Cinnogre were added to the calculator.";
+var changelog = "Swirelle added to the calc.";

@@ -222,12 +222,14 @@ function createPosNatureDropdown() {
     dropdown.options[3] = new Option("Smart", "smart");
     dropdown.options[4] = new Option("Clever", "clever");
     dropdown.options[5] = new Option("Nimble", "nimble");
-    dropdown.options[6] = new Option("Frail", "frail");
-    dropdown.options[7] = new Option("Tender", "tender");
-    dropdown.options[8] = new Option("Clumsy", "clumsy");
-    dropdown.options[9] = new Option("Foolish", "foolish");
-    dropdown.options[10] = new Option("Sluggish", "sluggish");
-    dropdown.options[11] = new Option("Indifferent", "indifferent");
+    dropdown.options[6] = new Option("Hyper", "hyper");
+    dropdown.options[7] = new Option("Frail", "frail");
+    dropdown.options[8] = new Option("Tender", "tender");
+    dropdown.options[9] = new Option("Clumsy", "clumsy");
+    dropdown.options[10] = new Option("Foolish", "foolish");
+    dropdown.options[11] = new Option("Sluggish", "sluggish");
+    dropdown.options[12] = new Option("Dull", "dull");
+    dropdown.options[13] = new Option("Indifferent", "indifferent");
 
     return dropdown;
 }
@@ -236,17 +238,19 @@ function createNegNatureDropdown() {
     let dropdown = document.createElement("select");
     
     dropdown.options[0] = new Option("None", "none");
-    dropdown.options[1] = new Option("Frail", "frail");
-    dropdown.options[2] = new Option("Tender", "tender");
-    dropdown.options[3] = new Option("Clumsy", "clumsy");
-    dropdown.options[4] = new Option("Foolish", "foolish");
-    dropdown.options[5] = new Option("Sluggish", "sluggish");
-    dropdown.options[6] = new Option("Brawny", "brawny");
-    dropdown.options[7] = new Option("Robust", "robust");
-    dropdown.options[8] = new Option("Smart", "smart");
-    dropdown.options[9] = new Option("Clever", "clever");
-    dropdown.options[10] = new Option("Nimble", "nimble");
-    dropdown.options[11] = new Option("Indifferent", "indifferent");
+    dropdown.options[1] = new Option("Brawny", "brawny");
+    dropdown.options[2] = new Option("Robust", "robust");
+    dropdown.options[3] = new Option("Smart", "smart");
+    dropdown.options[4] = new Option("Clever", "clever");
+    dropdown.options[5] = new Option("Nimble", "nimble");
+    dropdown.options[6] = new Option("Hyper", "hyper");
+    dropdown.options[7] = new Option("Frail", "frail");
+    dropdown.options[8] = new Option("Tender", "tender");
+    dropdown.options[9] = new Option("Clumsy", "clumsy");
+    dropdown.options[10] = new Option("Foolish", "foolish");
+    dropdown.options[11] = new Option("Sluggish", "sluggish");
+    dropdown.options[12] = new Option("Dull", "dull");
+    dropdown.options[13] = new Option("Indifferent", "indifferent");
 
     return dropdown;
 }

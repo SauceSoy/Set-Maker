@@ -577,7 +577,7 @@ var loomians = {
         height: 45,
         baseStats: {
             hp: 60,
-            energy: 69,
+            energy: 80,
             attack: 45,
             defense: 55,
             attackR: 92,
@@ -3844,6 +3844,45 @@ var loomians = {
             speed: 82
         }
     },
+
+    kyeggo: {
+        name: "Kyeggo",
+        number: 140,
+        types: ["Dark"],
+        abilities: ["Anomaly", "Vivid Sight"],
+        sAbility: ["Vicious"],
+        weight: 5,
+        height: 18,
+        finalEvo: false,
+        baseStats: {
+            hp: 67,
+            energy: 62,
+            attack: 26,
+            defense: 54,
+            attackR: 66,
+            defenseR: 56,
+            speed: 44
+        }
+    },
+
+    doreggo: {
+        name: "Doreggo",
+        number: 140,
+        types: ["Dark", "Air"],
+        abilities: ["Anomaly", "Vivid Sight"],
+        sAbility: ["Vicious"],
+        weight: 10,
+        height: 30,
+        baseStats: {
+            hp: 86,
+            energy: 78,
+            attack: 42,
+            defense: 66,
+            attackR: 102,
+            defenseR: 70,
+            speed: 56
+        }
+    },
  
     duskit: {
         name: "Duskit",
@@ -3989,11 +4028,11 @@ var loomians = {
         height: 38,
         baseStats: {
             hp: 83,
-            energy: 98,
+            energy: 118,
             attack: 69,
-            defense: 79,
+            defense: 69,
             attackR: 127,
-            defenseR: 89,
+            defenseR: 79,
             speed: 105
         }
     },
@@ -4140,10 +4179,10 @@ var loomians = {
             hp: 55,
             energy: 100,
             attack: 115,
-            defense: 85,
+            defense: 80,
             attackR: 115,
-            defenseR: 85,
-            speed: 95
+            defenseR: 80,
+            speed: 105
         }
     },
 
@@ -4201,25 +4240,6 @@ var loomians = {
         }
     },
 
-    'heavy bag': {
-        name: "Heavy Bag",
-        number: 9999,
-        types: ["Typeless"],
-        abilities: ["Surrogate"],
-        sAbility: ["Idiosyncratic"],
-        weight: 123,
-        height: 200,
-        baseStats: {
-            hp: 450,
-            energy: 0,
-            attack: 0,
-            defense: 100,
-            attackR: 0,
-            defenseR: 100,
-            speed: 0
-        }
-    },
-
     celesting: {
         name: "Celesting",
         number: 140,
@@ -4236,6 +4256,25 @@ var loomians = {
             attackR: 103,
             defenseR: 79,
             speed: 91
+        }
+    },
+
+    'heavy bag': {
+        name: "Heavy Bag",
+        number: 9999,
+        types: ["Typeless"],
+        abilities: ["Surrogate"],
+        sAbility: ["Idiosyncratic"],
+        weight: 123,
+        height: 200,
+        baseStats: {
+            hp: 450,
+            energy: 0,
+            attack: 0,
+            defense: 100,
+            attackR: 0,
+            defenseR: 100,
+            speed: 0
         }
     },
 
@@ -4409,7 +4448,8 @@ var moves = {
         type: "Plant",
         mr: "Melee",
         mr1: "Melee Attack",
-        mr2: "Melee Defense"
+        mr2: "Melee Defense",
+        contact: true
     },
 
     staticShock: {
@@ -4471,7 +4511,8 @@ var moves = {
         mr: "Melee",
         mr1: "Melee Attack",
         mr2: "Melee Defense",
-        secondaryEffect: true
+        secondaryEffect: true,
+        contact: true
     },
 
     pestilence: {
@@ -4579,7 +4620,8 @@ var moves = {
         mr1: "Melee Attack",
         mr2: "Melee Defense",
         hits: 2,
-        secondaryEffect: true
+        secondaryEffect: true,
+        contact: true
     },
 
     lusterLoot: {
@@ -5806,7 +5848,8 @@ var moves = {
         type: "Spirit",
         mr: "Melee",
         mr1: "Melee Attack",
-        mr2: "Melee Defense"
+        mr2: "Melee Defense",
+        contact: true
     },
 
     roughUp: {
@@ -6196,6 +6239,17 @@ var moves = {
         secondaryEffect: true
     },
 
+    dracoBeam: {
+        name: "Draco Beam",
+        power: 130,
+        energy: 60,
+        accuracy: 90,
+        type: "Ancient",
+        mr: "Ranged",
+        mr1: "Ranged Attack",
+        mr2: "Ranged Defense",
+    },
+
     piercingDrive: {
         name: "Piercing Drive",
         power: 75,
@@ -6427,7 +6481,8 @@ var moves = {
         type: "Electric",
         mr: "Melee",
         mr1: "Melee Attack",
-        mr2: "Melee Defense"
+        mr2: "Melee Defense",
+        contact: true
     },
 
     adaptiveAssault: {
@@ -7833,7 +7888,7 @@ var abilities = ["Ability Thief", "Ace", "Adorable", "Aggressive", "Ambush", "An
                  "Sugar Rush", "Surrogate", "Swampy", "Sweet Aroma", "Sweet Touch", "Tank", "Temper", "Terrifying", "Territorial", "Thriving Pace", "Tone Deaf", "Total Eclipse", "Toxic Filter",
                  "Toxic Spines", "Toxic Touch", "Trash Armor", "Turbulent", "Ungracious Host", "Vengeance", "Vigilant", "Vigorous", "Virtuoso", "Vivid Sight", "Volcanic", "Watcher", "Webbing",
                  "Woodsman", "Two Face", "Insulated", "Wise", "Malware", "Fanning Flame", "Appetite", "Gummy", "Viscid", "Glutton", "Resentful", "Pitch-Black", "Master", "Reverberate", "Mystic Tone",
-                 "Dauntless", "Festive Spirit"];
+                 "Dauntless", "Festive Spirit", "Vicious"];
 
 var typeModAbilities = {
     coursingVenom: {

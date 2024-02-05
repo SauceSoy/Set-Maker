@@ -258,15 +258,17 @@ function createVeryNatureDropdown() {
     let dropdown = document.createElement("select");
     dropdown.options[0] = new Option("None", "none");
     dropdown.options[1] = new Option("Very Brawny", "vBrawny");
-    dropdown.options[2] = new Option("Very Robust", "vRobust");
-    dropdown.options[3] = new Option("Very Smart", "vSmart");
-    dropdown.options[4] = new Option("Very Clever", "vClever");
-    dropdown.options[5] = new Option("Very Nimble", "vNimble");
-    dropdown.options[6] = new Option("Very Frail", "vFrail");
-    dropdown.options[7] = new Option("Very Tender", "vTender");
-    dropdown.options[8] = new Option("Very Clumsy", "vClumsy");
-    dropdown.options[9] = new Option("Very Foolish", "vFoolish");
-    dropdown.options[10] = new Option("Very Sluggish", "vSluggish");  
+    dropdown.options[2] = new Option("Very Hyper", "vHyper"); 
+    dropdown.options[3] = new Option("Very Robust", "vRobust");
+    dropdown.options[4] = new Option("Very Smart", "vSmart");
+    dropdown.options[5] = new Option("Very Clever", "vClever");
+    dropdown.options[6] = new Option("Very Nimble", "vNimble");
+    dropdown.options[7] = new Option("Very Frail", "vFrail");
+    dropdown.options[8] = new Option("Very Dull", "vDull"); 
+    dropdown.options[9] = new Option("Very Tender", "vTender");
+    dropdown.options[10] = new Option("Very Clumsy", "vClumsy");
+    dropdown.options[11] = new Option("Very Foolish", "vFoolish");
+    dropdown.options[12] = new Option("Very Sluggish", "vSluggish");
     
     return dropdown;
 }

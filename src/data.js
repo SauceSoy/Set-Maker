@@ -4044,12 +4044,12 @@ var loomians = {
         height: 18,
         finalEvo: false,
         baseStats: {
-            hp: 72,
+            hp: 67,
             energy: 62,
-            attack: 41,
-            defense: 44,
+            attack: 26,
+            defense: 54,
             attackR: 66,
-            defenseR: 46,
+            defenseR: 56,
             speed: 44
         }
     },
@@ -4063,11 +4063,11 @@ var loomians = {
         baseStats: {
             hp: 86,
             energy: 78,
-            attack: 56,
-            defense: 56,
+            attack: 42,
+            defense: 66,
             attackR: 102,
-            defenseR: 60,
-            speed: 52
+            defenseR: 70,
+            speed: 56
         }
     },
 
@@ -4079,11 +4079,11 @@ var loomians = {
         baseStats: {
             hp: 96,
             energy: 92,
-            attack: 78,
-            defense: 67,
-            attackR: 125,
-            defenseR: 72,
-            speed: 60
+            attack: 58,
+            defense: 77,
+            attackR: 135,
+            defenseR: 82,
+            speed: 70
         }
     },
 
@@ -4586,9 +4586,9 @@ var loomians = {
         weight: 130,
         height: 81,
         baseStats: {
-            hp: 64,
+            hp: 79,
             energy: 98,
-            attack: 105,
+            attack: 110,
             defense: 91,
             attackR: 51,
             defenseR: 86,
@@ -4626,6 +4626,138 @@ var loomians = {
             attackR: 38,
             defenseR: 57,
             speed: 115
+        }
+    },
+
+    eyebrella: {
+        name: "Eyebrella",
+        types: ["Water"],
+        weight: 2,
+        height: 29,
+        finalEvo: false,
+        baseStats: {
+            hp: 64,
+            energy: 62,
+            attack: 69,
+            defense: 60,
+            attackR: 34,
+            defenseR: 48,
+            speed: 47
+        }
+    },
+
+    parasoul: {
+        name: "Parasoul",
+        types: ["Water", "Dark"],
+        weight: 5,
+        height: 59,
+        baseStats: {
+            hp: 91,
+            energy: 80,
+            attack: 113,
+            defense: 92,
+            attackR: 54,
+            defenseR: 71,
+            speed: 74
+        }
+    },
+
+    lissen: {
+        name: "Lissen",
+        types: ["Mind"],
+        weight: 2,
+        height: 31,
+        finalEvo: false,
+        baseStats: {
+            hp: 69,
+            energy: 62,
+            attack: 31,
+            defense: 58,
+            attackR: 68,
+            defenseR: 58,
+            speed: 38
+        }
+    },
+
+    biwarned: {
+        name: "Biwarned",
+        types: ["Mind", "Typeless"],
+        weight: 13,
+        height: 47,
+        baseStats: {
+            hp: 113,
+            energy: 80,
+            attack: 44,
+            defense: 92,
+            attackR: 98,
+            defenseR: 92,
+            speed: 56
+        }
+    },
+
+    lantot: {
+        name: "Lantot",
+        types: ["Fire"],
+        weight: 1,
+        height: 15,
+        finalEvo: false,
+        baseStats: {
+            hp: 41,
+            energy: 62,
+            attack: 62,
+            defense: 42,
+            attackR: 69,
+            defenseR: 45,
+            speed: 63
+        }
+    },
+
+    lantorch: {
+        name: "Lantorch",
+        types: ["Fire", "Light"],
+        weight: 7,
+        height: 40,
+        baseStats: {
+            hp: 68,
+            energy: 80,
+            attack: 98,
+            defense: 57,
+            attackR: 113,
+            defenseR: 66,
+            speed: 93
+        }
+    },
+
+    milgoo: {
+        name: "Milgoo",
+        types: ["Toxic"],
+        weight: 4,
+        height: 13,
+        finalEvo: false,
+        baseStats: {
+            hp: 62,
+            energy: 62,
+            attack: 27,
+            defense: 33,
+            attackR: 66,
+            defenseR: 65,
+            speed: 69
+        }
+    },
+
+    rancidor: {
+        name: "Rancidor",
+        types: ["Toxic", "Ancient"],
+        weight: 32,
+        height: 63,
+        baseStats: {
+            hp: 93,
+            energy: 80,
+            attack: 44,
+            defense: 54,
+            attackR: 99,
+            defenseR: 92,
+            speed: 113
         }
     },
  
@@ -6370,6 +6502,18 @@ var moves = {
         bite: true
     },
 
+    revolution: {
+        name: "Revolution",
+        power: 70,
+        energy: 45,
+        accuracy: 100,
+        type: "Dark",
+        mr: "Melee",
+        mr1: "Melee Attack",
+        mr2: "Melee Defense",
+        contact: true,
+    },
+
     luminousRoar: {
         name: "Luminous Roar",
         power: 75,
@@ -6724,6 +6868,19 @@ var moves = {
         contact: true
     },
 
+    goopSpout: {
+        name: "Goop Spout",
+        power: 50,
+        energy: 35,
+        accuracy: 100,
+        type: "Ancient",
+        mr: "Ranged",
+        mr1: "Ranged Attack",
+        mr2: "Ranged Defense",
+        secondaryEffect: true,
+        aoe: true
+    },
+
     blazeChomp: {
         name: "Blaze Chomp",
         power: 70,
@@ -6930,6 +7087,17 @@ var moves = {
 
     flashNFlee: {
         name: "Flash 'n Flee",
+        power: 70,
+        energy: 50,
+        accuracy: 100,
+        type: "Light",
+        mr: "Ranged",
+        mr1: "Ranged Attack",
+        mr2: "Ranged Defense"
+    },
+
+    flare: {
+        name: "Flare",
         power: 70,
         energy: 50,
         accuracy: 100,
@@ -7240,7 +7408,6 @@ var moves = {
         mr1: "Melee Attack",
         mr2: "Melee Defense",
         contact: true,
-        secondaryEffect: true,
         bite: true
     },
 
@@ -7523,8 +7690,8 @@ var moves = {
         mr2: "Melee Defense",
     },
 
-    iceTremor: {
-        name: "Ice Tremor",
+    icicleTremor: {
+        name: "Icicle Tremor",
         power: 90,
         energy: 50,
         accuracy: 100,
@@ -8784,8 +8951,8 @@ var moves = {
         mr: "Support"
     },
 
-    ancientInstinct: {
-        name: "Ancient Instinct",
+    augment: {
+        name: "Augment",
         power: 0,
         energy: 25,
         accuracy: "N/A",
@@ -8809,6 +8976,16 @@ var moves = {
         accuracy: 100,
         type: "Typeless",
         mr: "Support"
+    },
+
+    conclusion: {
+        name: "Conclusion",
+        power: 0,
+        energy: 40,
+        accuracy: 100,
+        type: "Typeless",
+        mr: "Support",
+        sound: true
     },
 
     brawnBoost: {
@@ -9246,7 +9423,7 @@ var abilities = ["Ability Thief", "Ace", "Adorable", "Aggressive", "Ambush", "An
                  "Dauntless", "Festive Spirit", "Vicious", "Reaper", "Captivating", "Forge", "Blistering Heat", "Herd Behavior", "Regurgitate", "Wholesome", "Pyro Pro", "Persistence", "One of Many",
                  "Mesmerizing", "Hydrate", "Railgun", "Spine Break", "Sponge", "Burning Rage", "Third-Degree Burn", "Frostbite", "Chilling Passion", "Obsidian Heart", "Luck Of The Sea", "Intern",
                  "Partnership", "Rush Hour", "Trader", "Safety Pot", "Gloomy", "Mimic", "Reflective", "Hag", "Foresight", "Demanding", "Ravenous", "Designated Chompers", "Battle Armor", "Mask Swap",
-                 "Facade", "Party Trick"];
+                 "Facade", "Party Trick", "Do or Die", "Wildfire", "Send Off", "Hydro Vortex", "Motivational", "Soul Siphon", "Pluvial"];
 
 var typeModAbilities = {
     coursingVenom: {
@@ -9393,6 +9570,12 @@ var typeModAbilities = {
         powerMod: false
     },
 
+    hydroVortex: {
+        name: "Hydro Vortex",
+        typeModifier: { type: "Water", modifier: 0},
+        powerMod: false
+    },
+
     railgun: {
         name: "Railgun",
         typeModifier: { type: "Electric", modifier: 1.5},
@@ -9433,4 +9616,4 @@ for (let loo in loomians) {
 
 var sets = [];
 
-var changelog = "SB Icigool added.";
+var changelog = "Yokai Loomians added.";

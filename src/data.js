@@ -222,25 +222,6 @@ var loomians = {
             speed: 60
         }
     },
-
-    'eaglit-armenti': {
-        name: "Eaglit-Armenti",
-        number: 10,
-        types: ["Light"],
-        abilities: ["Awakening"],
-        sAbility: ["Applied Frustration"],
-        weight: 17,
-        heigth: 29,
-        baseStats: {
-            hp: 84,
-            energy: 88,
-            attack: 80,
-            defense: 71,
-            attackR: 125,
-            defenseR: 87,
-            speed: 75
-        }
-    },
  
     torprey: {
         name: "Torprey",
@@ -511,25 +492,6 @@ var loomians = {
             attackR: 42,
             defenseR: 38,
             speed: 40
-        }
-    },
-
-    'twilat-rainbow': {
-        name: "Twilat-Rainbow",
-        number: 22,
-        types: ["Simple"],
-        abilities: ["Territorial", "Confidence"],
-        sAbility: ["Neutralize"],
-        weight: 10,
-        height: 14,
-        baseStats: {
-            hp: 85,
-            energy: 80,
-            attack: 51,
-            defense: 84,
-            attackR: 116,
-            defenseR: 83,
-            speed: 96
         }
     },
  
@@ -3722,15 +3684,15 @@ var loomians = {
         weight: 19,
         height: 38,
         baseStats: {
-            hp: 99,
+            hp: 119,
             energy: 91,
-            attack: 44,
+            attack: 24,
             defense: 63,
             attackR: 133,
             defenseR: 79,
             speed: 66
         },
-        gsbStats: {
+        /*gsbStats: {
             hp: 104,
             energy: 86,
             attack: 54,
@@ -3738,7 +3700,7 @@ var loomians = {
             attackR: 133,
             defenseR: 79,
             speed: 66
-        }
+        }*/
     },
 
     hydrolen: {
@@ -6083,6 +6045,105 @@ var loomians = {
             speed: 93
         }
     },
+
+    banooh: {
+        name: "Banooh",
+        types: ["Simple"],
+        weight: 4,
+        height: 13,
+        finalEvo: false,
+        baseStats: {
+            hp: 41,
+            energy: 45,
+            attack: 24,
+            defense: 25,
+            attackR: 24,
+            defenseR: 25,
+            speed: 66
+        }
+    },
+
+    banokey: {
+        name: "Banokey",
+        types: ["Simple", "Brawler"],
+        weight: 17,
+        height: 41,
+        baseStats: {
+            hp: 97,
+            energy: 89,
+            attack: 124,
+            defense: 50,
+            attackR: 74,
+            defenseR: 50,
+            speed: 96
+        }
+    },
+
+    spirwix: {
+        name: "Spirwix",
+        types: ["Fire", "Spirit"],
+        weight: 2,
+        height: 8,
+        finalEvo: false,
+        baseStats: {
+            hp: 40,
+            energy: 61,
+            attack: 29,
+            defense: 50,
+            attackR: 100,
+            defenseR: 50,
+            speed: 45
+        }
+    },
+
+    malevowax: {
+        name: "Malevowax",
+        types: ["Fire", "Spirit"],
+        weight: 8,
+        height: 25,
+        baseStats: {
+            hp: 85,
+            energy: 81,
+            attack: 49,
+            defense: 95,
+            attackR: 120,
+            defenseR: 95,
+            speed: 75
+        }
+    },
+
+    grievestone: {
+        name: "Grievestone",
+        types: ["Earth", "Spirit"],
+        weight: 86,
+        height: 35,
+        finalEvo: false,
+        baseStats: {
+            hp: 48,
+            energy: 43,
+            attack: 38,
+            defense: 85,
+            attackR: 85,
+            defenseR: 30,
+            speed: 30
+        }
+    },
+
+    obelost: {
+        name: "Obelost",
+        types: ["Earth", "Spirit"],
+        weight: 339,
+        height: 86,
+        baseStats: {
+            hp: 84,
+            energy: 73,
+            attack: 50,
+            defense: 135,
+            attackR: 135,
+            defenseR: 50,
+            speed: 60
+        }
+    },
  
     duskit: {
         name: "Duskit",
@@ -6236,20 +6297,20 @@ var loomians = {
         weight: 125,
         height: 92,
         baseStats: {
-            hp: 97,
+            hp: 107,
             energy: 123,
             attack: 104,
-            defense: 114,
-            attackR: 78,
+            defense: 134,
+            attackR: 48,
             defenseR: 63,
             speed: 71
         },
         gsbStats: {
-            hp: 97,
-            energy: 133,
+            hp: 107,
+            energy: 123,
             attack: 114,
-            defense: 119,
-            attackR: 98,
+            defense: 139,
+            attackR: 78,
             defenseR: 68,
             speed: 71
         }
@@ -6501,10 +6562,7 @@ var loomians = {
 
     wabalisc: {
         name: "Wabalisc",
-        number: 206,
         types: ["Ice"],
-        abilities: ["Ignorant"],
-        sAbility: ["Hasty"],
         weight: 131,
         height: 86,
         baseStats: {
@@ -6529,10 +6587,32 @@ var loomians = {
 
     nymaurae: {
         name: "Nymaurae",
-        number: 207,
         types: ["Light", "Air"],
-        abilities: ["Quick Recovery"],
-        sAbility: ["Incandescent"],
+        weight: 10,
+        height: 27,
+        baseStats: {
+            hp: 71,
+            energy: 115,
+            attack: 46,
+            defense: 77,
+            attackR: 119,
+            defenseR: 122,
+            speed: 100
+        },
+        gsbStats: {
+            hp: 76,
+            energy: 115,
+            attack: 66,
+            defense: 77,
+            attackR: 119,
+            defenseR: 122,
+            speed: 100
+        }
+    },
+
+    nymesis: {
+        name: "Nymesis",
+        types: ["Dark", "Air"],
         weight: 10,
         height: 27,
         baseStats: {
@@ -6557,10 +6637,7 @@ var loomians = {
 
     'cosmiore-encased': {
         name: "Cosmiore-Encased",
-        number: 208,
         types: ["Ancient", "Mind"],
-        abilities: ["Regift"],
-        sAbility: ["Enchanted Coat"],
         weight: 123,
         height: 37,
         baseStats: {
@@ -6585,10 +6662,7 @@ var loomians = {
 
     'cosmiore-cracked': {
         name: "Cosmiore-Cracked",
-        number: 208,
         types: ["Ancient", "Mind"],
-        abilities: ["Regift"],
-        sAbility: ["Enchanted Coat"],
         weight: 123,
         height: 37,
         baseStats: {
@@ -6613,10 +6687,7 @@ var loomians = {
 
     'cosmiore-unleashed': {
         name: "Cosmiore-Unleashed",
-        number: 208,
         types: ["Ancient", "Mind"],
-        abilities: ["Surrogate"],
-        sAbility: ["Idiosyncratic"],
         weight: 123,
         height: 37,
         baseStats: {
@@ -7101,7 +7172,8 @@ var moves = {
         mr: "Melee",
         mr1: "Melee Attack",
         mr2: "Melee Defense",
-        contact: true
+        contact: true,
+        stat: {amount: -1, battle: "Offense", stat: "AttackM"}
     },
 
     staticShock: {
@@ -7201,6 +7273,7 @@ var moves = {
         mr: "Ranged",
         mr1: "Ranged Attack",
         mr2: "Ranged Defense",
+        sound: true,
         secondaryEffect: true
     },
 
@@ -7661,6 +7734,18 @@ var moves = {
         sound: true
     },
 
+    aggravate: {
+        name: "Aggravate",
+        power: 30,
+        energy: 20,
+        accuracy: 100,
+        type: "Dark",
+        mr: "Ranged",
+        mr1: "Ranged Attack",
+        mr2: "Ranged Defense",
+        drain: 1/2
+    },
+
     eggStorm: {
         name: "Egg Storm",
         power: 90,
@@ -7994,6 +8079,7 @@ var moves = {
         mr1: "Melee Attack",
         mr2: "Melee Defense",
         secondaryEffect: true,
+        contact: true,
         typeModifier: { type: "Water", modifier: 2 }
     },
 
@@ -8007,6 +8093,7 @@ var moves = {
         mr1: "Melee Attack",
         mr2: "Melee Defense",
         contact: true,
+        punch: true,
         hits: 3
     },
 
@@ -8366,6 +8453,19 @@ var moves = {
         priority: true
     },
 
+    bananaSlam: {
+        name: "Banana Slam",
+        power: 95,
+        energy: 55,
+        accuracy: "N/A",
+        type: "Brawler",
+        mr: "Melee",
+        mr1: "Melee Attack",
+        mr2: "Melee Defense",
+        contact: true,
+        secondaryEffect: true
+    },
+
     ragingHowl: {
         name: "Raging Howl",
         power: 120,
@@ -8701,6 +8801,18 @@ var moves = {
         secondaryEffect: true
     },
 
+    trickShot: {
+        name: "Trick Shot",
+        power: 70,
+        energy: 45,
+        accuracy: 100,
+        type: "Spirit",
+        mr: "Ranged",
+        mr1: "Ranged Attack",
+        mr2: "Ranged Defense",
+        priority: true
+    },
+
     resonate: {
         name: "Resonate",
         power: 90,
@@ -8819,7 +8931,8 @@ var moves = {
         type: "Light",
         mr: "Ranged",
         mr1: "Ranged Attack",
-        mr2: "Ranged Defense"
+        mr2: "Ranged Defense",
+        pivot: true
     },
 
     flare: {
@@ -8842,7 +8955,8 @@ var moves = {
         mr: "Melee",
         mr1: "Melee Attack",
         mr2: "Melee Defense",
-        contact: true
+        contact: true,
+        pivot: true
     },
 
     roughUp: {
@@ -9060,7 +9174,8 @@ var moves = {
         mr1: "Melee Attack",
         mr2: "Melee Defense",
         contact: true,
-        secondaryEffect: true
+        secondaryEffect: true,
+        slap: true
     },
 
     tailSlap: {
@@ -9101,8 +9216,8 @@ var moves = {
 
     stampede: {
         name: "Stampede",
-        power: 1,
-        energy: 55,
+        power: 120,
+        energy: 65,
         accuracy: 100,
         type: "Simple",
         mr: "Melee",
@@ -9243,6 +9358,17 @@ var moves = {
         secondaryEffect: true
     },
 
+    incinerate: {
+        name: "Incinerate",
+        power: 130,
+        energy: 60,
+        accuracy: 80,
+        type: "Fire",
+        mr: "Ranged",
+        mr1: "Ranged Attack",
+        mr2: "Ranged Defense",
+    },
+
     clampClaw: {
         name: "Clamp Claw",
         power: 85,
@@ -9313,6 +9439,7 @@ var moves = {
         mr: "Ranged",
         mr1: "Ranged Attack",
         mr2: "Ranged Defense",
+        stat: {amount: -2, battle: "Offense", stat: "AttackR"}
     },
 
     piercingDrive: {
@@ -9362,7 +9489,8 @@ var moves = {
         mr2: "Melee Defense",
         contact: true,
         secondaryEffect: true,
-        bite: true
+        bite: true,
+        stat: {amount: -1, battle: "Defense", stat: "DefenseM"}
     },
 
     thunderClap: {
@@ -9415,7 +9543,8 @@ var moves = {
         mr1: "Ranged Attack",
         mr2: "Ranged Defense",
         aoe: true,
-        secondaryEffect: true
+        secondaryEffect: true,
+        stat: {amount: -1, battle: "Defense", stat: "DefenseR"}
     },
 
     psychalSlap: {
@@ -9832,7 +9961,8 @@ var moves = {
         type: "Toxic",
         mr: "Ranged",
         mr1: "Ranged Attack",
-        mr2: "Ranged Defense"
+        mr2: "Ranged Defense",
+        stat: {amount: -1, battle: "Offense", stat: "AttackR"}
     },
 
     plunge: {
@@ -10005,6 +10135,8 @@ var moves = {
         mr1: "Melee Attack",
         mr2: "Melee Defense",
         contact: true,
+        punch: true,
+        stat: {amount: 1, battle: "Offense", stat: "AttackM", first: true}
     },
 
     hyperSting: {
@@ -10039,6 +10171,18 @@ var moves = {
         mr: "Ranged",
         mr1: "Ranged Attack",
         mr2: "Ranged Defense"
+    },
+
+    rockSlide: {
+        name: "Rock Slide",
+        power: 60,
+        energy: 40,
+        accuracy: 100,
+        type: "Earth",
+        mr: "Ranged",
+        mr1: "Ranged Attack",
+        mr2: "Ranged Defense",
+        typeModifier: { type: "Air", modifier: 2 }
     },
 
     dazzlingBarrage: {
@@ -10163,7 +10307,8 @@ var moves = {
         mr: "Ranged",
         mr1: "Ranged Attack",
         mr2: "Ranged Defense",
-        secondaryEffect: true
+        secondaryEffect: true,
+        stat: {amount: -1, battle: "Defense", stat: "DefenseR"}
     },
 
     jolt: {
@@ -10187,6 +10332,7 @@ var moves = {
         mr: "Ranged",
         mr1: "Ranged Attack",
         mr2: "Ranged Defense",
+        pivot: true
     },
 
 
@@ -11128,6 +11274,15 @@ var moves = {
         mr: "Support"
     },
 
+    bananaSplit: {
+        name: "Banana Split",
+        power: 0,
+        energy: 100,
+        accuracy: "N/A",
+        type: "Simple",
+        mr: "Support"
+    },
+
     emulate: {
         name: "Emulate",
         power: 0,
@@ -11313,7 +11468,7 @@ var abilities = ["Ability Thief", "Ace", "Adorable", "Aggressive", "Ambush", "An
                  "Partnership", "Rush Hour", "Trader", "Safety Pot", "Gloomy", "Mimic", "Reflective", "Hag", "Foresight", "Demanding", "Ravenous", "Designated Chompers", "Battle Armor", "Mask Swap",
                  "Facade", "Party Trick", "Do or Die", "Wildfire", "Sendoff", "Hydro Vortex", "Motivational", "Soul Siphon", "Pluvial", "Petrifying", "Tumultuous", "Venomous", "Brutal Wrath",
                  "Sky-Borne", "Land-Borne", "Depths-Borne", "All Seeing", "Rain Rush", "Triumph", "Royal Decree", "Thunder Summon", "Recurrent", "Charged Arc","Adaptable", "Heat Summon",
-                 "Rain Summon", "Fog Summon", "Wind Summon", "Inferno", "Cosmic Pressure", "Conspire", "Metamorphosis"];
+                 "Rain Summon", "Fog Summon", "Wind Summon", "Inferno", "Cosmic Pressure", "Conspire", "Metamorphosis", "Sob", "Wail", "Seize", "Scrappy", "Monkey Madness", "Disenchant", "Impose"];
 
 var typeModAbilities = {
     coursingVenom: {
@@ -11510,7 +11665,7 @@ var typeModAbilities = {
 }
 
 var items = ["Heavy Shield", "Heavy Armor", "Power Cuffs", "Health Amulet", "Drain Orb", "Mystic Wand", "Drop of Youth", "Energy Orb", "Chocolate Bar", "Mysterious Dust", "Heavy Shackles", "Thunder Orb",
-             "Volcanic Ash", "Rageful Plushie", "Clutch Plushie", "Specialty Boots", "Milkshake", "Kabunga Coffee"];
+             "Volcanic Ash", "Rageful Plushie", "Clutch Plushie", "Specialty Boots", "Milkshake", "Kabunga Coffee", "Specialty Goggles", "Specialty Gloves"];
 
 for (let ty in types) {
     items.push(ty.charAt(0).toUpperCase() + ty.slice(1) + " Essence");
@@ -11524,4 +11679,4 @@ for (let loo in loomians) {
 
 var sets = [];
 
-var changelog = "Loomunity Loomians added.";
+var changelog = "Added Trick Retreat Loomians and Specialty Gloves/Goggles.";

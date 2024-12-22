@@ -48,15 +48,6 @@ var loomians = {
         weight: 98,
         height: 82,
         baseStats: {
-            hp: 88,
-            energy: 88,
-            attack: 102,
-            defense: 125,
-            attackR: 60,
-            defenseR: 82,
-            speed: 65
-        },
-        gsbStats: {
             hp: 89,
             energy: 88,
             attack: 102,
@@ -116,15 +107,6 @@ var loomians = {
         weight: 91,
         height: 63,
         baseStats: {
-            hp: 102,
-            energy: 88,
-            attack: 90,
-            defense: 93,
-            attackR: 94,
-            defenseR: 83,
-            speed: 60
-        },
-        gsbStats: {
             hp: 105,
             energy: 88,
             attack: 94,
@@ -184,15 +166,6 @@ var loomians = {
         weight: 74,
         height: 64,
         baseStats: {
-            hp: 72,
-            energy: 88,
-            attack: 126,
-            defense: 75,
-            attackR: 80,
-            defenseR: 65,
-            speed: 104
-        },
-        gsbStats: {
             hp: 75,
             energy: 88,
             attack: 126,
@@ -252,15 +225,6 @@ var loomians = {
         weight: 80,
         height: 77,
         baseStats: {
-            hp: 84,
-            energy: 88,
-            attack: 80,
-            defense: 71,
-            attackR: 125,
-            defenseR: 87,
-            speed: 75
-        },
-        gsbStats: {
             hp: 86,
             energy: 88,
             attack: 87,
@@ -323,15 +287,6 @@ var loomians = {
             hp: 76,
             energy: 88,
             attack: 110,
-            defense: 90,
-            attackR: 82,
-            defenseR: 65,
-            speed: 99
-        },
-        gsbStats: {
-            hp: 76,
-            energy: 88,
-            attack: 110,
             defense: 97,
             attackR: 90,
             defenseR: 65,
@@ -388,15 +343,6 @@ var loomians = {
         weight: 108,
         height: 92,
         baseStats: {
-            hp: 124,
-            energy: 88,
-            attack: 98,
-            defense: 115,
-            attackR: 65,
-            defenseR: 75,
-            speed: 45
-        },
-        gsbStats: {
             hp: 132,
             energy: 88,
             attack: 98,
@@ -458,15 +404,6 @@ var loomians = {
         baseStats: {
             hp: 78,
             energy: 88,
-            attack: 89,
-            defense: 56,
-            attackR: 106,
-            defenseR: 74,
-            speed: 119
-        },
-        gsbStats: {
-            hp: 78,
-            energy: 88,
             attack: 92,
             defense: 60,
             attackR: 109,
@@ -505,15 +442,6 @@ var loomians = {
         height: 39,
         baseStats: {
             hp: 75,
-            energy: 75,
-            attack: 96,
-            defense: 79,
-            attackR: 51,
-            defenseR: 78,
-            speed: 71
-        },
-        gsbStats: {
-            hp: 75,
             energy: 84,
             attack: 106,
             defense: 90,
@@ -533,15 +461,6 @@ var loomians = {
         height: 39,
         baseStats: {
             hp: 75,
-            energy: 75,
-            attack: 51,
-            defense: 68,
-            attackR: 96,
-            defenseR: 69,
-            speed: 91
-        },
-        gsbStats: {
-            hp: 75,
             energy: 84,
             attack: 61,
             defense: 73,
@@ -560,15 +479,6 @@ var loomians = {
         weight: 42,
         height: 45,
         baseStats: {
-            hp: 85,
-            energy: 80,
-            attack: 51,
-            defense: 84,
-            attackR: 116,
-            defenseR: 83,
-            speed: 96
-        },
-        gsbStats: {
             hp: 75,
             energy: 84,
             attack: 106,
@@ -628,15 +538,6 @@ var loomians = {
         weight: 20,
         height: 45,
         baseStats: {
-            hp: 60,
-            energy: 80,
-            attack: 45,
-            defense: 55,
-            attackR: 92,
-            defenseR: 80,
-            speed: 83
-        },
-        gsbStats: {
             hp: 70,
             energy: 80,
             attack: 55,
@@ -656,15 +557,6 @@ var loomians = {
         weight: 154,
         height: 62,
         baseStats: {
-            hp: 57,
-            energy: 80,
-            attack: 110,
-            defense: 91,
-            attackR: 21,
-            defenseR: 86,
-            speed: 50
-        },
-        gsbStats: {
             hp: 72,
             energy: 80,
             attack: 110,
@@ -725,15 +617,6 @@ var loomians = {
         height: 63,
         baseStats: {
             hp: 79,
-            energy: 80,
-            attack: 100,
-            defense: 68,
-            attackR: 62,
-            defenseR: 63,
-            speed: 113
-        },
-        gsbStats: {
-            hp: 79,
             energy: 85,
             attack: 100,
             defense: 78,
@@ -773,15 +656,6 @@ var loomians = {
         height: 37,
         baseStats: {
             hp: 85,
-            energy: 70,
-            attack: 115,
-            defense: 85,
-            attackR: 10,
-            defenseR: 65,
-            speed: 65
-        },
-        gsbStats: {
-            hp: 85,
             energy: 85,
             attack: 120,
             defense: 105,
@@ -820,15 +694,6 @@ var loomians = {
         weight: 33,
         height: 44,
         baseStats: {
-            hp: 85,
-            energy: 68,
-            attack: 45,
-            defense: 90,
-            attackR: 65,
-            defenseR: 90,
-            speed: 35
-        },
-        gsbStats: {
             hp: 105,
             energy: 88,
             attack: 55,
@@ -849,15 +714,6 @@ var loomians = {
         weight: 33,
         height: 44,
         baseStats: {
-            hp: 100,
-            energy: 80,
-            attack: 123,
-            defense: 100,
-            attackR: 25,
-            defenseR: 100,
-            speed: 50
-        },
-        gsbStats: {
             hp: 105,
             energy: 88,
             attack: 123,
@@ -917,15 +773,6 @@ var loomians = {
         weight: 37,
         height: 65,
         baseStats: {
-            hp: 70,
-            energy: 70,
-            attack: 97,
-            defense: 80,
-            attackR: 46,
-            defenseR: 60,
-            speed: 72
-        },
-        gsbStats: {
             hp: 75,
             energy: 85,
             attack: 112,
@@ -945,15 +792,6 @@ var loomians = {
         weight: 33,
         height: 44,
         baseStats: {
-            hp: 79,
-            energy: 72,
-            attack: 121,
-            defense: 106,
-            attackR: 20,
-            defenseR: 54,
-            speed: 43
-        },
-        gsbStats: {
             hp: 94,
             energy: 87,
             attack: 121,
@@ -993,15 +831,6 @@ var loomians = {
         weight: 30,
         height: 48,
         baseStats: {
-            hp: 90,
-            energy: 75,
-            attack: 95,
-            defense: 85,
-            attackR: 40,
-            defenseR: 50,
-            speed: 90
-        },
-        gsbStats: {
             hp: 95,
             energy: 80,
             attack: 100,
@@ -1041,15 +870,6 @@ var loomians = {
         weight: 53,
         height: 49,
         baseStats: {
-            hp: 92,
-            energy: 76,
-            attack: 110,
-            defense: 90,
-            attackR: 40,
-            defenseR: 60,
-            speed: 68
-        },
-        gsbStats: {
             hp: 102,
             energy: 81,
             attack: 110,
@@ -1089,15 +909,6 @@ var loomians = {
         weight: 57,
         height: 51,
         baseStats: {
-            hp: 80,
-            energy: 80,
-            attack: 50,
-            defense: 85,
-            attackR: 80,
-            defenseR: 115,
-            speed: 80
-        },
-        gsbStats: {
             hp: 80,
             energy: 80,
             attack: 55,
@@ -1157,15 +968,6 @@ var loomians = {
         weight: 130,
         height: 93,
         baseStats: {
-            hp: 115,
-            energy: 83,
-            attack: 55,
-            defense: 35,
-            attackR: 85,
-            defenseR: 115,
-            speed: 55
-        },
-        gsbStats: {
             hp: 120,
             energy: 88,
             attack: 60,
@@ -1186,15 +988,6 @@ var loomians = {
         weight: 130,
         height: 93,
         baseStats: {
-            hp: 140,
-            energy: 88,
-            attack: 60,
-            defense: 45,
-            attackR: 105,
-            defenseR: 140,
-            speed: 65
-        },
-        gsbStats: {
             hp: 140,
             energy: 88,
             attack: 60,
@@ -1254,16 +1047,7 @@ var loomians = {
         weight: 117,
         height: 85,
         baseStats: {
-            hp: 152,
-            energy: 125,
-            attack: 49,
-            defense: 55,
-            attackR: 49,
-            defenseR: 55,
-            speed: 47
-        },
-        gsbStats: {
-            hp: 152,
+            hp: 162,
             energy: 125,
             attack: 49,
             defense: 70,
@@ -1282,21 +1066,12 @@ var loomians = {
         weight: 81,
         height: 100,
         baseStats: {
-            hp: 98,
-            energy: 104,
-            attack: 15,
-            defense: 75,
-            attackR: 103,
-            defenseR: 75,
-            speed: 62
-        },
-        gsbStats: {
             hp: 108,
             energy: 94,
             attack: 49,
-            defense: 75,
+            defense: 80,
             attackR: 112,
-            defenseR: 75,
+            defenseR: 80,
             speed: 62
         }
     },
@@ -1307,19 +1082,10 @@ var loomians = {
         weight: 111,
         height: 74,
         baseStats: {
-            hp: 99,
-            energy: 68,
-            attack: 23,
-            defense: 76,
-            attackR: 124,
-            defenseR: 101,
-            speed: 41
-        },
-        gsbStats: {
             hp: 104,
             energy: 73,
             attack: 49,
-            defense: 76,
+            defense: 86,
             attackR: 124,
             defenseR: 108,
             speed: 41
@@ -1335,15 +1101,6 @@ var loomians = {
         weight: 19,
         height: 45,
         baseStats: {
-            hp: 79,
-            energy: 91,
-            attack: 36,
-            defense: 42,
-            attackR: 99,
-            defenseR: 64,
-            speed: 89
-        },
-        gsbStats: {
             hp: 79,
             energy: 91,
             attack: 36,
@@ -1385,15 +1142,6 @@ var loomians = {
         baseStats: {
             hp: 107,
             energy: 87,
-            attack: 88,
-            defense: 98,
-            attackR: 47,
-            defenseR: 76,
-            speed: 54
-        },
-        gsbStats: {
-            hp: 107,
-            energy: 87,
             attack: 91,
             defense: 108,
             attackR: 52,
@@ -1431,15 +1179,6 @@ var loomians = {
         weight: 104,
         height: 62,
         baseStats: {
-            hp: 90,
-            energy: 85,
-            attack: 52,
-            defense: 142,
-            attackR: 75,
-            defenseR: 53,
-            speed: 48
-        },
-        gsbStats: {
             hp: 90,
             energy: 90,
             attack: 57,
@@ -1501,15 +1240,6 @@ var loomians = {
         baseStats: {
             hp: 99,
             energy: 89,
-            attack: 115,
-            defense: 63,
-            attackR: 30,
-            defenseR: 80,
-            speed: 75
-        },
-        gsbStats: {
-            hp: 99,
-            energy: 89,
             attack: 120,
             defense: 68,
             attackR: 50,
@@ -1528,20 +1258,11 @@ var loomians = {
         height: 74,
         baseStats: {
             hp: 99,
-            energy: 92,
-            attack: 86,
-            defense: 110,
-            attackR: 21,
-            defenseR: 88,
-            speed: 55
-        },
-        gsbStats: {
-            hp: 99,
-            energy: 92,
-            attack: 92,
-            defense: 115,
+            energy: 89,
+            attack: 95,
+            defense: 113,
             attackR: 50,
-            defenseR: 88,
+            defenseR: 90,
             speed: 55
         }
     },
@@ -1575,15 +1296,6 @@ var loomians = {
         weight: 22,
         height: 59,
         baseStats: {
-            hp: 60,
-            energy: 89,
-            attack: 90,
-            defense: 58,
-            attackR: 115,
-            defenseR: 62,
-            speed: 97
-        },
-        gsbStats: {
             hp: 65,
             energy: 89,
             attack: 105,
@@ -1645,15 +1357,6 @@ var loomians = {
         baseStats: {
             hp: 81,
             energy: 90,
-            attack: 89,
-            defense: 69,
-            attackR: 100,
-            defenseR: 84,
-            speed: 77
-        },
-        gsbStats: {
-            hp: 81,
-            energy: 90,
             attack: 94,
             defense: 74,
             attackR: 105,
@@ -1674,17 +1377,8 @@ var loomians = {
         baseStats: {
             hp: 81,
             energy: 90,
-            attack: 99,
-            defense: 89,
-            attackR: 127,
-            defenseR: 89,
-            speed: 80
-        },
-        gsbStats: {
-            hp: 81,
-            energy: 90,
             attack: 104,
-            defense: 89,
+            defense: 90,
             attackR: 127,
             defenseR: 94,
             speed: 80
@@ -1740,18 +1434,9 @@ var loomians = {
         weight: 155,
         height: 81,
         baseStats: {
-            hp: 85,
-            energy: 125,
-            attack: 35,
-            defense: 90,
-            attackR: 81,
-            defenseR: 94,
-            speed: 22
-        },
-        gsbStats: {
             hp: 95,
             energy: 125,
-            attack: 48,
+            attack: 58,
             defense: 95,
             attackR: 91,
             defenseR: 99,
@@ -1771,16 +1456,7 @@ var loomians = {
         baseStats: {
             hp: 115,
             energy: 125,
-            attack: 55,
-            defense: 100,
-            attackR: 121,
-            defenseR: 104,
-            speed: 12
-        },
-        gsbStats: {
-            hp: 115,
-            energy: 125,
-            attack: 53,
+            attack: 63,
             defense: 105,
             attackR: 126,
             defenseR: 109,
@@ -1798,19 +1474,10 @@ var loomians = {
         height: 78,
         baseStats: {
             hp: 81,
-            energy: 86,
-            attack: 105,
-            defense: 74,
-            attackR: 20,
-            defenseR: 64,
-            speed: 102
-        },
-        gsbStats: {
-            hp: 81,
             energy: 90,
             attack: 110,
             defense: 74,
-            attackR: 54,
+            attackR: 64,
             defenseR: 64,
             speed: 102
         }
@@ -1822,16 +1489,7 @@ var loomians = {
         weight: 68,
         height: 81,
         baseStats: {
-            hp: 113,
-            energy: 90,
-            attack: 119,
-            defense: 56,
-            attackR: 44,
-            defenseR: 88,
-            speed: 22
-        },
-        gsbStats: {
-            hp: 118,
+            hp: 128,
             energy: 101,
             attack: 119,
             defense: 71,
@@ -1892,15 +1550,6 @@ var loomians = {
         baseStats: {
             hp: 99,
             energy: 100,
-            attack: 90,
-            defense: 124,
-            attackR: 67,
-            defenseR: 65,
-            speed: 65
-        },
-        gsbStats: {
-            hp: 99,
-            energy: 100,
             attack: 100,
             defense: 124,
             attackR: 72,
@@ -1959,15 +1608,6 @@ var loomians = {
         height: 70,
         baseStats: {
             hp: 92,
-            energy: 75,
-            attack: 134,
-            defense: 102,
-            attackR: 42,
-            defenseR: 62,
-            speed: 73
-        },
-        gsbStats: {
-            hp: 92,
             energy: 79,
             attack: 134,
             defense: 102,
@@ -1986,15 +1626,6 @@ var loomians = {
         weight: 146,
         height: 68,
         baseStats: {
-            hp: 92,
-            energy: 75,
-            attack: 42,
-            defense: 73,
-            attackR: 134,
-            defenseR: 102,
-            speed: 62
-        },
-        gsbStats: {
             hp: 92,
             energy: 79,
             attack: 52,
@@ -2016,15 +1647,6 @@ var loomians = {
         baseStats: {
             hp: 70,
             energy: 80,
-            attack: 15,
-            defense: 60,
-            attackR: 88,
-            defenseR: 64,
-            speed: 123
-        },
-        gsbStats: {
-            hp: 70,
-            energy: 80,
             attack: 35,
             defense: 60,
             attackR: 93,
@@ -2039,15 +1661,6 @@ var loomians = {
         weight: 7,
         height: 43,
         baseStats: {
-            hp: 95,
-            energy: 69,
-            attack: 112,
-            defense: 94,
-            attackR: 10,
-            defenseR: 81,
-            speed: 39
-        },
-        gsbStats: {
             hp: 95,
             energy: 69,
             attack: 112,
@@ -2067,15 +1680,6 @@ var loomians = {
         weight: 7,
         height: 43,
         baseStats: {
-            hp: 105,
-            energy: 99,
-            attack: 132,
-            defense: 104,
-            attackR: 19,
-            defenseR: 91,
-            speed: 50
-        },
-        gsbStats: {
             hp: 105,
             energy: 99,
             attack: 132,
@@ -2116,15 +1720,6 @@ var loomians = {
         height: 86,
         baseStats: {
             hp: 88,
-            energy: 95,
-            attack: 50,
-            defense: 50,
-            attackR: 120,
-            defenseR: 101,
-            speed: 106
-        },
-        gsbStats: {
-            hp: 88,
             energy: 100,
             attack: 55,
             defense: 55,
@@ -2163,15 +1758,6 @@ var loomians = {
         weight: 58,
         height: 65,
         baseStats: {
-            hp: 53,
-            energy: 76,
-            attack: 77,
-            defense: 90,
-            attackR: 54,
-            defenseR: 64,
-            speed: 104
-        },
-        gsbStats: {
             hp: 55,
             energy: 76,
             attack: 97,
@@ -2211,15 +1797,6 @@ var loomians = {
         weight: 221,
         height: 90,
         baseStats: {
-            hp: 95,
-            energy: 80,
-            attack: 34,
-            defense: 77,
-            attackR: 105,
-            defenseR: 108,
-            speed: 81
-        },
-        gsbStats: {
             hp: 100,
             energy: 80,
             attack: 49,
@@ -2240,18 +1817,9 @@ var loomians = {
         ability: "Turbulent",
         item: "Stratuburst",
         baseStats: {
-            hp: 95,
-            energy: 100,
-            attack: 56,
-            defense: 67,
-            attackR: 135,
-            defenseR: 78,
-            speed: 119
-        },
-        gsbStats: {
             hp: 100,
             energy: 100,
-            attack: 66,
+            attack: 61,
             defense: 67,
             attackR: 135,
             defenseR: 78,
@@ -2288,15 +1856,6 @@ var loomians = {
         weight: 180,
         height: 80,
         baseStats: {
-            hp: 73,
-            energy: 86,
-            attack: 92,
-            defense: 78,
-            attackR: 88,
-            defenseR: 82,
-            speed: 68
-        },
-        gsbStats: {
             hp: 78,
             energy: 86,
             attack: 97,
@@ -2357,15 +1916,6 @@ var loomians = {
         height: 118,
         baseStats: {
             hp: 89,
-            energy: 89,
-            attack: 111,
-            defense: 102,
-            attackR: 62,
-            defenseR: 83,
-            speed: 74
-        },
-        gsbStats: {
-            hp: 89,
             energy: 94,
             attack: 111,
             defense: 102,
@@ -2404,15 +1954,6 @@ var loomians = {
         weight: 193,
         height: 79,
         baseStats: {
-            hp: 89,
-            energy: 79,
-            attack: 94,
-            defense: 113,
-            attackR: 42,
-            defenseR: 78,
-            speed: 66
-        },
-        gsbStats: {
             hp: 94,
             energy: 79,
             attack: 104,
@@ -2472,15 +2013,6 @@ var loomians = {
         weight: 67,
         height: 74,
         baseStats: {
-            hp: 69,
-            energy: 82,
-            attack: 54,
-            defense: 68,
-            attackR: 132,
-            defenseR: 119,
-            speed: 61
-        },
-        gsbStats: {
             hp: 74,
             energy: 82,
             attack: 54,
@@ -2524,15 +2056,6 @@ var loomians = {
             energy: 84,
             attack: 94,
             defense: 83,
-            attackR: 43,
-            defenseR: 69,
-            speed: 116
-        },
-        gsbStats: {
-            hp: 78,
-            energy: 84,
-            attack: 94,
-            defense: 83,
             attackR: 63,
             defenseR: 69,
             speed: 116
@@ -2568,15 +2091,6 @@ var loomians = {
         weight: 63,
         height: 99,
         baseStats: {
-            hp: 95,
-            energy: 79,
-            attack: 51,
-            defense: 74,
-            attackR: 99,
-            defenseR: 74,
-            speed: 105
-        },
-        gsbStats: {
             hp: 95,
             energy: 79,
             attack: 51,
@@ -2618,15 +2132,6 @@ var loomians = {
             energy: 100 ,
             attack: 104,
             defense: 82,
-            attackR: 45,
-            defenseR: 68,
-            speed: 87
-        },
-        gsbStats: {
-            hp: 89,
-            energy: 100 ,
-            attack: 104,
-            defense: 82,
             attackR: 55,
             defenseR: 73,
             speed: 87
@@ -2647,10 +2152,10 @@ var loomians = {
             energy: 100 ,
             attack: 134,
             defense: 92,
-            attackR: 55,
+            attackR: 65,
             defenseR: 78,
             speed: 77
-        },
+        }
     },
 
     zaleo: {
@@ -2682,15 +2187,6 @@ var loomians = {
             energy: 89 ,
             attack: 126,
             defense: 87,
-            attackR: 36,
-            defenseR: 84,
-            speed: 69
-        },
-        gsbStats: {
-            hp: 94,
-            energy: 89 ,
-            attack: 126,
-            defense: 87,
             attackR: 56,
             defenseR: 84,
             speed: 69
@@ -2711,7 +2207,7 @@ var loomians = {
             energy: 89 ,
             attack: 136,
             defense: 87,
-            attackR: 51,
+            attackR: 66,
             defenseR: 84,
             speed: 109
         }
@@ -2746,15 +2242,6 @@ var loomians = {
         weight: 39,
         height: 74,
         baseStats: {
-            hp: 79,
-            energy: 90 ,
-            attack: 57,
-            defense: 53,
-            attackR: 110,
-            defenseR: 107,
-            speed: 89
-        },
-        gsbStats: {
             hp: 84,
             energy: 95 ,
             attack: 57,
@@ -2795,15 +2282,6 @@ var loomians = {
         height: 52,
         baseStats: {
             hp: 66,
-            energy: 81 ,
-            attack: 85,
-            defense: 72,
-            attackR: 81,
-            defenseR: 69,
-            speed: 116
-        },
-        gsbStats: {
-            hp: 66,
             energy: 86 ,
             attack: 86,
             defense: 72,
@@ -2842,15 +2320,6 @@ var loomians = {
         weight: 102,
         height: 103,
         baseStats: {
-            hp: 109,
-            energy: 78 ,
-            attack: 92,
-            defense: 87,
-            attackR: 89,
-            defenseR: 84,
-            speed: 41
-        },
-        gsbStats: {
             hp: 119,
             energy: 83 ,
             attack: 97,
@@ -2910,15 +2379,6 @@ var loomians = {
         weight: 55,
         height: 56,
         baseStats: {
-            hp: 89,
-            energy: 86 ,
-            attack: 95,
-            defense: 87,
-            attackR: 99,
-            defenseR: 91,
-            speed: 43
-        },
-        gsbStats: {
             hp: 99,
             energy: 86 ,
             attack: 95,
@@ -2960,15 +2420,6 @@ var loomians = {
         baseStats: {
             hp: 93,
             energy: 80 ,
-            attack: 89,
-            defense: 91,
-            attackR: 57,
-            defenseR: 73,
-            speed: 82
-        },
-        gsbStats: {
-            hp: 93,
-            energy: 80 ,
             attack: 109,
             defense: 91,
             attackR: 57,
@@ -2986,15 +2437,6 @@ var loomians = {
         weight: 34,
         height: 30,
         baseStats: {
-            hp: 96,
-            energy: 83 ,
-            attack: 57,
-            defense: 102,
-            attackR: 89,
-            defenseR: 93,
-            speed: 37
-        },
-        gsbStats: {
             hp: 96,
             energy: 88 ,
             attack: 72,
@@ -3057,15 +2499,6 @@ var loomians = {
             hp: 87,
             energy: 89,
             attack: 100,
-            defense: 79,
-            attackR: 53,
-            defenseR: 72,
-            speed: 100
-        },
-        gsbStats: {
-            hp: 87,
-            energy: 89,
-            attack: 100,
             defense: 84,
             attackR: 63,
             defenseR: 72,
@@ -3113,15 +2546,6 @@ var loomians = {
         weight: 57,
         height: 55,
         baseStats: {
-            hp: 60,
-            energy: 80,
-            attack: 109,
-            defense: 53,
-            attackR: 122,
-            defenseR: 62,
-            speed: 94
-        },
-        gsbStats: {
             hp: 60,
             energy: 85,
             attack: 114,
@@ -3172,16 +2596,7 @@ var loomians = {
         weight: 348,
         height: 68,
         baseStats: {
-            hp: 103,
-            energy: 96,
-            attack: 124,
-            defense: 111,
-            attackR: 55,
-            defenseR: 67,
-            speed: 54
-        },
-        gsbStats: {
-            hp: 103,
+             hp: 103,
             energy: 96,
             attack: 124,
             defense: 111,
@@ -3214,15 +2629,6 @@ var loomians = {
         weight: 40,
         height: 51,
         baseStats: {
-            hp: 74,
-            energy: 88,
-            attack: 109,
-            defense: 85,
-            attackR: 42,
-            defenseR: 99,
-            speed: 41
-        },
-        gsbStats: {
             hp: 84,
             energy: 88,
             attack: 109,
@@ -3303,15 +2709,6 @@ var loomians = {
         baseStats: {
             hp: 71,
             energy: 90,
-            attack: 37,
-            defense: 102,
-            attackR: 120,
-            defenseR: 93,
-            speed: 67
-        },
-        gsbStats: {
-            hp: 71,
-            energy: 90,
             attack: 72,
             defense: 102,
             attackR: 120,
@@ -3369,15 +2766,6 @@ var loomians = {
         weight: 15,
         height: 38,
         baseStats: {
-            hp: 62,
-            energy: 95,
-            attack: 41,
-            defense: 93,
-            attackR: 79,
-            defenseR: 76,
-            speed: 93
-        },
-        gsbStats: {
             hp: 72,
             energy: 95,
             attack: 46,
@@ -3437,15 +2825,6 @@ var loomians = {
         weight: 3,
         height: 45,
         baseStats: {
-            hp: 67,
-            energy: 90,
-            attack: 53,
-            defense: 110,
-            attackR: 100,
-            defenseR: 71,
-            speed: 89
-        },
-        gsbStats: {
             hp: 72,
             energy: 90,
             attack: 53,
@@ -3479,15 +2858,6 @@ var loomians = {
         weight: 105,
         height: 68,
         baseStats: {
-            hp: 82,
-            energy: 85,
-            attack: 110,
-            defense: 85,
-            attackR: 52,
-            defenseR: 72,
-            speed: 89
-        },
-        gsbStats: {
             hp: 92,
             energy: 85,
             attack: 110,
@@ -3504,15 +2874,6 @@ var loomians = {
         weight: 86,
         height: 83,
         baseStats: {
-            hp: 50,
-            energy: 80,
-            attack: 119,
-            defense: 55,
-            attackR: 93,
-            defenseR: 75,
-            speed: 103
-        },
-        gsbStats: {
             hp: 50,
             energy: 80,
             attack: 119,
@@ -3534,15 +2895,6 @@ var loomians = {
             attack: 137,
             defense: 69,
             attackR: 73,
-            defenseR: 53,
-            speed: 82
-        },
-        gsbStats: {
-            hp: 78,
-            energy: 83,
-            attack: 137,
-            defense: 69,
-            attackR: 73,
             defenseR: 63,
             speed: 82
         }
@@ -3554,15 +2906,6 @@ var loomians = {
         weight: 91,
         height: 73,
         baseStats: {
-            hp: 70,
-            energy: 92,
-            attack: 52,
-            defense: 90,
-            attackR: 123,
-            defenseR: 61,
-            speed: 87
-        },
-        gsbStats: {
             hp: 70,
             energy: 92,
             attack: 57,
@@ -3579,15 +2922,6 @@ var loomians = {
         weight: 110,
         height: 77,
         baseStats: {
-            hp: 83,
-            energy: 90,
-            attack: 56,
-            defense: 62,
-            attackR: 101,
-            defenseR: 122,
-            speed: 61
-        },
-        gsbStats: {
             hp: 83,
             energy: 90,
             attack: 61,
@@ -3608,15 +2942,6 @@ var loomians = {
             energy: 79,
             attack: 130,
             defense: 88,
-            attackR: 17,
-            defenseR: 79,
-            speed: 78
-        },
-        gsbStats: {
-            hp: 104,
-            energy: 79,
-            attack: 130,
-            defense: 88,
             attackR: 27,
             defenseR: 79,
             speed: 78
@@ -3629,15 +2954,6 @@ var loomians = {
         weight: 19,
         height: 38,
         baseStats: {
-            hp: 69,
-            energy: 100,
-            attack: 99,
-            defense: 75,
-            attackR: 35,
-            defenseR: 96,
-            speed: 101
-        },
-        gsbStats: {
             hp: 69,
             energy: 100,
             attack: 99,
@@ -3658,15 +2974,6 @@ var loomians = {
             energy: 86,
             attack: 91,
             defense: 130,
-            attackR: 61,
-            defenseR: 66,
-            speed: 50
-        },
-        gsbStats: {
-            hp: 91,
-            energy: 86,
-            attack: 91,
-            defense: 130,
             attackR: 71,
             defenseR: 66,
             speed: 50
@@ -3681,21 +2988,12 @@ var loomians = {
         baseStats: {
             hp: 119,
             energy: 91,
-            attack: 24,
+            attack: 34,
             defense: 63,
             attackR: 133,
             defenseR: 79,
             speed: 66
-        },
-        /*gsbStats: {
-            hp: 104,
-            energy: 86,
-            attack: 54,
-            defense: 63,
-            attackR: 133,
-            defenseR: 79,
-            speed: 66
-        }*/
+        }
     },
 
     hydrolen: {
@@ -3704,15 +3002,6 @@ var loomians = {
         weight: 70,
         height: 63,
         baseStats: {
-            hp: 80,
-            energy: 85,
-            attack: 97,
-            defense: 49,
-            attackR: 97,
-            defenseR: 60,
-            speed: 107
-        },
-        gsbStats: {
             hp: 80,
             energy: 85,
             attack: 97,
@@ -3776,15 +3065,6 @@ var loomians = {
             energy: 90,
             attack: 123,
             defense: 113,
-            attackR: 38,
-            defenseR: 76,
-            speed: 63
-        },
-        gsbStats: {
-            hp: 87,
-            energy: 90,
-            attack: 123,
-            defense: 113,
             attackR: 63,
             defenseR: 76,
             speed: 63
@@ -3838,15 +3118,6 @@ var loomians = {
             energy: 0,
             attack: 100,
             defense: 119,
-            attackR: 34,
-            defenseR: 77,
-            speed: 56
-        },
-        gsbStats: {
-            hp: 116,
-            energy: 0,
-            attack: 100,
-            defense: 119,
             attackR: 57,
             defenseR: 77,
             speed: 56
@@ -3893,19 +3164,10 @@ var loomians = {
         weight: 4,
         height: 18,
         baseStats: {
-            hp: 66,
-            energy: 92,
-            attack: 58,
-            defense: 81,
-            attackR: 114,
-            defenseR: 85,
-            speed: 94
-        },
-        gsbStats: {
-            hp: 71,
+            hp: 81,
             energy: 92,
             attack: 63,
-            defense: 81,
+            defense: 86,
             attackR: 114,
             defenseR: 85,
             speed: 94
@@ -3952,15 +3214,6 @@ var loomians = {
         weight: 21,
         height: 66,
         baseStats: {
-            hp: 50,
-            energy: 89,
-            attack: 58,
-            defense: 72,
-            attackR: 121,
-            defenseR: 89,
-            speed: 108
-        },
-        gsbStats: {
             hp: 50,
             energy: 89,
             attack: 68,
@@ -4013,16 +3266,7 @@ var loomians = {
         baseStats: {
             hp: 91,
             energy: 80,
-            attack: 42,
-            defense: 120,
-            attackR: 111,
-            defenseR: 77,
-            speed: 34
-        },
-        gsbStats: {
-            hp: 91,
-            energy: 95,
-            attack: 52,
+            attack: 67,
             defense: 120,
             attackR: 116,
             defenseR: 77,
@@ -4054,15 +3298,6 @@ var loomians = {
         height: 87,
         finalEvo: false,
         baseStats: {
-            hp: 72,
-            energy: 79,
-            attack: 53,
-            defense: 92,
-            attackR: 98,
-            defenseR: 66,
-            speed: 109
-        },
-        gsbStats: {
             hp: 72,
             energy: 79,
             attack: 58,
@@ -4100,15 +3335,6 @@ var loomians = {
             energy: 97,
             attack: 125,
             defense: 103,
-            attackR: 9,
-            defenseR: 73,
-            speed: 80
-        },
-        gsbStats: {
-            hp: 68,
-            energy: 97,
-            attack: 125,
-            defense: 103,
             attackR: 39,
             defenseR: 73,
             speed: 80
@@ -4138,15 +3364,6 @@ var loomians = {
         weight: 290,
         height: 66,
         baseStats: {
-            hp: 120,
-            energy: 87,
-            attack: 117,
-            defense: 72,
-            attackR: 33,
-            defenseR: 59,
-            speed: 80
-        },
-        gsbStats: {
             hp: 120,
             energy: 87,
             attack: 117,
@@ -4180,15 +3397,6 @@ var loomians = {
         weight: 17,
         height: 14,
         baseStats: {
-            hp: 95,
-            energy: 100,
-            attack: 99,
-            defense: 86,
-            attackR: 52,
-            defenseR: 81,
-            speed: 15
-        },
-        gsbStats: {
             hp: 100,
             energy: 100,
             attack: 99,
@@ -4241,15 +3449,6 @@ var loomians = {
         baseStats: {
             hp: 100,
             energy: 99,
-            attack: 18,
-            defense: 66,
-            attackR: 95,
-            defenseR: 110,
-            speed: 92
-        },
-        gsbStats: {
-            hp: 100,
-            energy: 99,
             attack: 58,
             defense: 66,
             attackR: 95,
@@ -4291,15 +3490,6 @@ var loomians = {
             energy: 90,
             attack: 93,
             defense: 94,
-            attackR: 18,
-            defenseR: 89,
-            speed: 62
-        },
-        gsbStats: {
-            hp: 110,
-            energy: 90,
-            attack: 93,
-            defense: 94,
             attackR: 48,
             defenseR: 89,
             speed: 62
@@ -4335,15 +3525,6 @@ var loomians = {
         weight: 22,
         height: 44,
         baseStats: {
-            hp: 90,
-            energy: 93,
-            attack: 59,
-            defense: 57,
-            attackR: 97,
-            defenseR: 59,
-            speed: 101
-        },
-        gsbStats: {
             hp: 90,
             energy: 93,
             attack: 69,
@@ -4396,15 +3577,6 @@ var loomians = {
         baseStats: {
             hp: 97,
             energy: 91,
-            attack: 14,
-            defense: 66,
-            attackR: 95,
-            defenseR: 127,
-            speed: 70
-        },
-        gsbStats: {
-            hp: 97,
-            energy: 91,
             attack: 44,
             defense: 66,
             attackR: 95,
@@ -4444,15 +3616,6 @@ var loomians = {
         baseStats: {
             hp: 112,
             energy: 99,
-            attack: 35,
-            defense: 61,
-            attackR: 110,
-            defenseR: 81,
-            speed: 77
-        },
-        gsbStats: {
-            hp: 112,
-            energy: 99,
             attack: 55,
             defense: 71,
             attackR: 115,
@@ -4468,15 +3631,6 @@ var loomians = {
         weight: 9,
         height: 34,
         baseStats: {
-            hp: 60,
-            energy: 100,
-            attack: 60,
-            defense: 60,
-            attackR: 60,
-            defenseR: 60,
-            speed: 100
-        },
-        gsbStats: {
             hp: 65,
             energy: 100,
             attack: 65,
@@ -4516,15 +3670,6 @@ var loomians = {
         weight: 76,
         height: 86,
         baseStats: {
-            hp: 69,
-            energy: 88,
-            attack: 23,
-            defense: 87,
-            attackR: 113,
-            defenseR: 110,
-            speed: 79
-        },
-        gsbStats: {
             hp: 79,
             energy: 88,
             attack: 43,
@@ -4564,15 +3709,6 @@ var loomians = {
         weight: 40,
         height: 67,
         baseStats: {
-            hp: 72,
-            energy: 94,
-            attack: 48,
-            defense: 67,
-            attackR: 92,
-            defenseR: 80,
-            speed: 102
-        },
-        gsbStats: {
             hp: 77,
             energy: 94,
             attack: 73,
@@ -4633,15 +3769,6 @@ var loomians = {
         height: 119,
         finalEvo: false,
         baseStats: {
-            hp: 74,
-            energy: 86,
-            attack: 120,
-            defense: 89,
-            attackR: 92,
-            defenseR: 66,
-            speed: 83
-        },
-        gsbStats: {
             hp: 81,
             energy: 89,
             attack: 120,
@@ -4681,15 +3808,6 @@ var loomians = {
         weight: 144,
         height: 86,
         baseStats: {
-            hp: 123,
-            energy: 95,
-            attack: 130,
-            defense: 71,
-            attackR: 26,
-            defenseR: 60,
-            speed: 85
-        },
-        gsbStats: {
             hp: 123,
             energy: 95,
             attack: 130,
@@ -4751,15 +3869,6 @@ var loomians = {
         baseStats: {
             hp: 97,
             energy: 91,
-            attack: 78,
-            defense: 57,
-            attackR: 115,
-            defenseR: 52,
-            speed: 100
-        },
-        gsbStats: {
-            hp: 97,
-            energy: 91,
             attack: 93,
             defense: 62,
             attackR: 115,
@@ -4795,15 +3904,6 @@ var loomians = {
         baseStats: {
             hp: 65,
             energy: 110,
-            attack: 26,
-            defense: 130,
-            attackR: 0,
-            defenseR: 130,
-            speed: 39
-        },
-        gsbStats: {
-            hp: 65,
-            energy: 110,
             attack: 51,
             defense: 130,
             attackR: 0,
@@ -4835,15 +3935,6 @@ var loomians = {
         weight: 74,
         height: 90,
         baseStats: {
-            hp: 73,
-            energy: 93,
-            attack: 115,
-            defense: 101,
-            attackR: 42,
-            defenseR: 67,
-            speed: 82
-        },
-        gsbStats: {
             hp: 78,
             energy: 93,
             attack: 115,
@@ -4896,15 +3987,6 @@ var loomians = {
         baseStats: {
             hp: 96,
             energy: 92,
-            attack: 58,
-            defense: 77,
-            attackR: 135,
-            defenseR: 82,
-            speed: 70
-        },
-        gsbStats: {
-            hp: 96,
-            energy: 92,
             attack: 73,
             defense: 77,
             attackR: 135,
@@ -4953,15 +4035,6 @@ var loomians = {
         weight: 5,
         height: 49,
         baseStats: {
-            hp: 56,
-            energy: 101,
-            attack: 48,
-            defense: 96,
-            attackR: 122,
-            defenseR: 106,
-            speed: 51
-        },
-        gsbStats: {
             hp: 56,
             energy: 101,
             attack: 68,
@@ -5014,15 +4087,6 @@ var loomians = {
         baseStats: {
             hp: 80,
             energy: 87,
-            attack: 112,
-            defense: 104,
-            attackR: 112,
-            defenseR: 61,
-            speed: 24
-        },
-        gsbStats: {
-            hp: 80,
-            energy: 87,
             attack: 117,
             defense: 104,
             attackR: 117,
@@ -5040,15 +4104,6 @@ var loomians = {
         weight: 96,
         height: 57,
         baseStats: {
-            hp: 69,
-            energy: 85,
-            attack: 22,
-            defense: 97,
-            attackR: 94,
-            defenseR: 57,
-            speed: 76
-        },
-        gsbStats: {
             hp: 69,
             energy: 85,
             attack: 42,
@@ -5110,15 +4165,6 @@ var loomians = {
         baseStats: {
             hp: 92,
             energy: 98,
-            attack: 45,
-            defense: 89,
-            attackR: 95,
-            defenseR: 80,
-            speed: 111
-        },
-        gsbStats: {
-            hp: 92,
-            energy: 98,
             attack: 60,
             defense: 89,
             attackR: 95,
@@ -5150,15 +4196,6 @@ var loomians = {
         weight: 39,
         height: 62,
         baseStats: {
-            hp: 75,
-            energy: 150,
-            attack: 72,
-            defense: 66,
-            attackR: 36,
-            defenseR: 61,
-            speed: 90
-        },
-        gsbStats: {
             hp: 75,
             energy: 150,
             attack: 72,
@@ -5196,15 +4233,6 @@ var loomians = {
         baseStats: {
             hp: 105,
             energy: 83,
-            attack: 76,
-            defense: 104,
-            attackR: 121,
-            defenseR: 76,
-            speed: 35
-        },
-        gsbStats: {
-            hp: 105,
-            energy: 83,
             attack: 86,
             defense: 104,
             attackR: 121,
@@ -5236,15 +4264,6 @@ var loomians = {
         weight: 20,
         height: 37,
         baseStats: {
-            hp: 60,
-            energy: 90,
-            attack: 100,
-            defense: 117,
-            attackR: 9,
-            defenseR: 79,
-            speed: 100
-        },
-        gsbStats: {
             hp: 60,
             energy: 90,
             attack: 100,
@@ -5282,15 +4301,6 @@ var loomians = {
             energy: 90,
             attack: 112,
             defense: 105,
-            attackR: 20,
-            defenseR: 73,
-            speed: 70
-        },
-        gsbStats: {
-            hp: 115,
-            energy: 90,
-            attack: 112,
-            defense: 105,
             attackR: 45,
             defenseR: 73,
             speed: 70
@@ -5322,19 +4332,10 @@ var loomians = {
         baseStats: {
             hp: 50,
             energy: 100,
-            attack: 14,
-            defense: 77,
+            attack: 44,
+            defense: 97,
             attackR: 130,
             defenseR: 67,
-            speed: 92
-        },
-        gsbStats: {
-            hp: 50,
-            energy: 100,
-            attack: 54,
-            defense: 82,
-            attackR: 130,
-            defenseR: 72,
             speed: 92
         }
     },
@@ -5348,18 +4349,9 @@ var loomians = {
             hp: 50,
             energy: 100,
             attack: 130,
-            defense: 97,
-            attackR: 14,
-            defenseR: 67,
-            speed: 72
-        },
-        gsbStats: {
-            hp: 50,
-            energy: 100,
-            attack: 130,
-            defense: 102,
-            attackR: 54,
-            defenseR: 72,
+            defense: 107,
+            attackR: 44,
+            defenseR: 77,
             speed: 72
         }
     },
@@ -5387,15 +4379,6 @@ var loomians = {
         weight: 29,
         height: 42,
         baseStats: {
-            hp: 88,
-            energy: 101,
-            attack: 101,
-            defense: 96,
-            attackR: 40,
-            defenseR: 70,
-            speed: 59
-        },
-        gsbStats: {
             hp: 88,
             energy: 101,
             attack: 101,
@@ -5432,15 +4415,6 @@ var loomians = {
             hp: 50,
             energy: 84,
             attack: 125,
-            defense: 62,
-            attackR: 125,
-            defenseR: 105,
-            speed: 44
-        },
-        gsbStats: {
-            hp: 50,
-            energy: 84,
-            attack: 125,
             defense: 72,
             attackR: 125,
             defenseR: 105,
@@ -5455,19 +4429,10 @@ var loomians = {
         height: 59,
         baseStats: {
             hp: 77,
-            energy: 85,
-            attack: 23,
-            defense: 53,
-            attackR: 108,
-            defenseR: 87,
-            speed: 99
-        },
-        gsbStats: {
-            hp: 77,
             energy: 92,
             attack: 49,
             defense: 58,
-            attackR: 108,
+            attackR: 118,
             defenseR: 92,
             speed: 99
         }
@@ -5479,20 +4444,11 @@ var loomians = {
         weight: 106,
         height: 77,
         baseStats: {
-            hp: 96,
-            energy: 82,
-            attack: 103,
-            defense: 88,
-            attackR: 25,
-            defenseR: 74,
-            speed: 64
-        },
-        gsbStats: {
             hp: 104,
             energy: 86,
             attack: 103,
             defense: 93,
-            attackR: 46,
+            attackR: 56,
             defenseR: 79,
             speed: 64
         }
@@ -5542,15 +4498,6 @@ var loomians = {
             energy: 98,
             attack: 110,
             defense: 91,
-            attackR: 51,
-            defenseR: 86,
-            speed: 95
-        },
-        gsbStats: {
-            hp: 79,
-            energy: 98,
-            attack: 110,
-            defense: 91,
             attackR: 66,
             defenseR: 86,
             speed: 95
@@ -5580,15 +4527,6 @@ var loomians = {
         weight: 89,
         height: 79,
         baseStats: {
-            hp: 98,
-            energy: 97,
-            attack: 95,
-            defense: 73,
-            attackR: 38,
-            defenseR: 57,
-            speed: 115
-        },
-        gsbStats: {
             hp: 98,
             energy: 97,
             attack: 95,
@@ -5626,15 +4564,6 @@ var loomians = {
             energy: 80,
             attack: 113,
             defense: 92,
-            attackR: 54,
-            defenseR: 71,
-            speed: 74
-        },
-        gsbStats: {
-            hp: 91,
-            energy: 80,
-            attack: 113,
-            defense: 92,
             attackR: 64,
             defenseR: 71,
             speed: 74
@@ -5664,15 +4593,6 @@ var loomians = {
         weight: 13,
         height: 47,
         baseStats: {
-            hp: 113,
-            energy: 80,
-            attack: 44,
-            defense: 92,
-            attackR: 98,
-            defenseR: 92,
-            speed: 56
-        },
-        gsbStats: {
             hp: 113,
             energy: 80,
             attack: 44,
@@ -5709,15 +4629,6 @@ var loomians = {
             hp: 68,
             energy: 80,
             attack: 98,
-            defense: 57,
-            attackR: 113,
-            defenseR: 66,
-            speed: 93
-        },
-        gsbStats: {
-            hp: 68,
-            energy: 80,
-            attack: 98,
             defense: 62,
             attackR: 113,
             defenseR: 71,
@@ -5748,15 +4659,6 @@ var loomians = {
         weight: 32,
         height: 63,
         baseStats: {
-            hp: 93,
-            energy: 80,
-            attack: 44,
-            defense: 54,
-            attackR: 99,
-            defenseR: 92,
-            speed: 113
-        },
-        gsbStats: {
             hp: 93,
             energy: 80,
             attack: 49,
@@ -5792,7 +4694,7 @@ var loomians = {
         baseStats: {
             hp: 106,
             energy: 82,
-            attack: 54,
+            attack: 59,
             defense: 74,
             attackR: 105,
             defenseR: 115,
@@ -5810,7 +4712,7 @@ var loomians = {
             energy: 82,
             attack: 105,
             defense: 115,
-            attackR: 54,
+            attackR: 59,
             defenseR: 74,
             speed: 34
         }
@@ -5859,8 +4761,8 @@ var loomians = {
             hp: 82,
             energy: 87,
             attack: 115,
-            defense: 56,
-            attackR: 51,
+            defense: 66,
+            attackR: 61,
             defenseR: 95,
             speed: 104
         }
@@ -5910,8 +4812,8 @@ var loomians = {
             energy: 87,
             attack: 115,
             defense: 95,
-            attackR: 51,
-            defenseR: 56,
+            attackR: 61,
+            defenseR: 66,
             speed: 104
         }
     },
@@ -5956,15 +4858,6 @@ var loomians = {
         weight: 48,
         height: 69,
         baseStats: {
-            hp: 86,
-            energy: 93,
-            attack: 39,
-            defense: 67,
-            attackR: 74,
-            defenseR: 109,
-            speed: 112
-        },
-        gsbStats: {
             hp: 86,
             energy: 93,
             attack: 49,
@@ -6139,6 +5032,72 @@ var loomians = {
             speed: 60
         }
     },
+
+    jimby: {
+        name: "Jimby",
+        types: ["Simple"],
+        weight: 4,
+        height: 13,
+        finalEvo: false,
+        baseStats: {
+            hp: 40,
+            energy: 58,
+            attack: 28,
+            defense: 27,
+            attackR: 81,
+            defenseR: 100,
+            speed: 90
+        }
+    },
+
+    piccolio: {
+        name: "Piccolio",
+        types: ["Simple"],
+        weight: 11,
+        height: 32,
+        baseStats: {
+            hp: 80,
+            energy: 79,
+            attack: 48,
+            defense: 47,
+            attackR: 111,
+            defenseR: 120,
+            speed: 90
+        }
+    },
+
+    wassel: {
+        name: "Wassel",
+        types: ["Ice"],
+        weight: 7,
+        height: 15,
+        finalEvo: false,
+        baseStats: {
+            hp: 29,
+            energy: 35,
+            attack: 38,
+            defense: 10,
+            attackR: 14,
+            defenseR: 21,
+            speed: 53
+        }
+    },
+
+    borealisk: {
+        name: "Borealisk",
+        types: ["Ice"],
+        weight: 85,
+        height: 113,
+        baseStats: {
+            hp: 98,
+            energy: 70,
+            attack: 118,
+            defense: 57,
+            attackR: 68,
+            defenseR: 101,
+            speed: 103
+        }
+    },
  
     duskit: {
         name: "Duskit",
@@ -6146,15 +5105,6 @@ var loomians = {
         weight: 16,
         height: 37,
         baseStats: {
-            hp: 74,
-            energy: 100,
-            attack: 100,
-            defense: 81,
-            attackR: 105,
-            defenseR: 81,
-            speed: 109
-        },
-        gsbStats: {
             hp: 74,
             energy: 100,
             attack: 100,
@@ -6171,15 +5121,6 @@ var loomians = {
         weight: 38,
         height: 69,
         baseStats: {
-            hp: 68,
-            energy: 110,
-            attack: 104,
-            defense: 62,
-            attackR: 139,
-            defenseR: 73,
-            speed: 94
-        },
-        gsbStats: {
             hp: 72,
             energy: 115,
             attack: 119,
@@ -6196,15 +5137,6 @@ var loomians = {
         weight: 135,
         height: 103,
         baseStats: {
-            hp: 53,
-            energy: 108,
-            attack: 67,
-            defense: 94,
-            attackR: 111,
-            defenseR: 96,
-            speed: 121
-        },
-        gsbStats: {
             hp: 58,
             energy: 118,
             attack: 82,
@@ -6221,15 +5153,6 @@ var loomians = {
         weight: 135,
         height: 86,
         baseStats: {
-            hp: 94,
-            energy: 99,
-            attack: 122,
-            defense: 76,
-            attackR: 90,
-            defenseR: 72,
-            speed: 97
-        },
-        gsbStats: {
             hp: 99,
             energy: 119,
             attack: 127,
@@ -6249,15 +5172,6 @@ var loomians = {
         weight: 135,
         height: 86,
         baseStats: {
-            hp: 114,
-            energy: 99,
-            attack: 90,
-            defense: 86,
-            attackR: 152,
-            defenseR: 82,
-            speed: 77
-        },
-        gsbStats: {
             hp: 119,
             energy: 119,
             attack: 95,
@@ -6294,15 +5208,6 @@ var loomians = {
         baseStats: {
             hp: 107,
             energy: 123,
-            attack: 104,
-            defense: 134,
-            attackR: 48,
-            defenseR: 63,
-            speed: 71
-        },
-        gsbStats: {
-            hp: 107,
-            energy: 123,
             attack: 114,
             defense: 139,
             attackR: 78,
@@ -6317,15 +5222,6 @@ var loomians = {
         weight: 141,
         height: 99,
         baseStats: {
-            hp: 154,
-            energy: 96,
-            attack: 96,
-            defense: 64,
-            attackR: 119,
-            defenseR: 69,
-            speed: 52
-        },
-        gsbStats: {
             hp: 164,
             energy: 116,
             attack: 96,
@@ -6360,15 +5256,6 @@ var loomians = {
         height: 107,
         baseStats: {
             hp: 105,
-            energy: 100,
-            attack: 55,
-            defense: 100,
-            attackR: 140,
-            defenseR: 55,
-            speed: 95
-        },
-        gsbStats: {
-            hp: 105,
             energy: 105,
             attack: 75,
             defense: 120,
@@ -6384,15 +5271,6 @@ var loomians = {
         weight: 198,
         height: 116,
         baseStats: {
-            hp: 91,
-            energy: 115,
-            attack: 119,
-            defense: 112,
-            attackR: 63,
-            defenseR: 59,
-            speed: 91
-        },
-        gsbStats: {
             hp: 96,
             energy: 115,
             attack: 119,
@@ -6409,15 +5287,6 @@ var loomians = {
         weight: 236,
         height: 122,
         baseStats: {
-            hp: 91,
-            energy: 115,
-            attack: 63,
-            defense: 59,
-            attackR: 119,
-            defenseR: 92,
-            speed: 111
-        },
-        gsbStats: {
             hp: 96,
             energy: 115,
             attack: 88,
@@ -6435,15 +5304,6 @@ var loomians = {
         weight: 429,
         height: 145,
         baseStats: {
-            hp: 91,
-            energy: 90,
-            attack: 129,
-            defense: 85,
-            attackR: 129,
-            defenseR: 75,
-            speed: 101
-        },
-        gsbStats: {
             hp: 96,
             energy: 115,
             attack: 134,
@@ -6502,149 +5362,12 @@ var loomians = {
         },
     },
 
-    metronette: {
-        name: "Metronette",
-        types: ["Dark", "Mind"],
-        weight: 31,
-        height: 38,
-        baseStats: {
-            hp: 83,
-            energy: 118,
-            attack: 69,
-            defense: 69,
-            attackR: 127,
-            defenseR: 79,
-            speed: 105
-        },
-        gsbStats: {
-            hp: 83,
-            energy: 128,
-            attack: 84,
-            defense: 69,
-            attackR: 127,
-            defenseR: 79,
-            speed: 105
-        }
-    },
-
-    'metronette-willbound': {
-        name: "Metronette-Willbound",
-        types: ["Dark", "Mind"],
-        weight: 31,
-        height: 38,
-        soulMove: "Sinister Shackles",
-        ability: "Demanding",
-        item: "Metroburst",
-        baseStats: {
-            hp: 53,
-            energy: 98,
-            attack: 114,
-            defense: 119,
-            attackR: 147,
-            defenseR: 54,
-            speed: 115
-        },
-        gsbStats: {
-            hp: 53,
-            energy: 118,
-            attack: 119,
-            defense: 119,
-            attackR: 147,
-            defenseR: 54,
-            speed: 115
-        }
-    },
-
-    wabalisc: {
-        name: "Wabalisc",
-        types: ["Ice"],
-        weight: 131,
-        height: 86,
-        baseStats: {
-            hp: 101,
-            energy: 93,
-            attack: 99,
-            defense: 83,
-            attackR: 112,
-            defenseR: 93,
-            speed: 69
-        },
-        gsbStats: {
-            hp: 106,
-            energy: 103,
-            attack: 99,
-            defense: 88,
-            attackR: 112,
-            defenseR: 98,
-            speed: 69
-        }
-    },
-
-    nymaurae: {
-        name: "Nymaurae",
-        types: ["Light", "Air"],
-        weight: 10,
-        height: 27,
-        baseStats: {
-            hp: 71,
-            energy: 115,
-            attack: 46,
-            defense: 77,
-            attackR: 119,
-            defenseR: 122,
-            speed: 100
-        },
-        gsbStats: {
-            hp: 76,
-            energy: 115,
-            attack: 66,
-            defense: 77,
-            attackR: 119,
-            defenseR: 122,
-            speed: 100
-        }
-    },
-
-    nymesis: {
-        name: "Nymesis",
-        types: ["Dark", "Air"],
-        weight: 10,
-        height: 27,
-        baseStats: {
-            hp: 71,
-            energy: 115,
-            attack: 46,
-            defense: 77,
-            attackR: 119,
-            defenseR: 122,
-            speed: 100
-        },
-        gsbStats: {
-            hp: 76,
-            energy: 115,
-            attack: 66,
-            defense: 77,
-            attackR: 119,
-            defenseR: 122,
-            speed: 100
-        }
-    },
-
     'cosmiore-encased': {
         name: "Cosmiore-Encased",
         types: ["Ancient", "Mind"],
         weight: 123,
         height: 37,
         baseStats: {
-            hp: 99,
-            energy: 145,
-            attack: 43,
-            defense: 135,
-            attackR: 84,
-            defenseR: 98,
-            speed: 46
-        },
-        gsbStats: {
             hp: 99,
             energy: 145,
             attack: 68,
@@ -6661,15 +5384,6 @@ var loomians = {
         weight: 123,
         height: 37,
         baseStats: {
-            hp: 99,
-            energy: 115,
-            attack: 43,
-            defense: 115,
-            attackR: 124,
-            defenseR: 78,
-            speed: 76
-        },
-        gsbStats: {
             hp: 99,
             energy: 115,
             attack: 68,
@@ -6690,18 +5404,76 @@ var loomians = {
             energy: 105,
             attack: 134,
             defense: 105,
-            attackR: 43,
-            defenseR: 68,
-            speed: 96
-        },
-        gsbStats: {
-            hp: 99,
-            energy: 105,
-            attack: 134,
-            defense: 105,
             attackR: 68,
             defenseR: 68,
             speed: 96
+        }
+    },
+
+    nymaurae: {
+        name: "Nymaurae",
+        types: ["Light", "Air"],
+        weight: 10,
+        height: 27,
+        baseStats: {
+            hp: 76,
+            energy: 115,
+            attack: 66,
+            defense: 77,
+            attackR: 119,
+            defenseR: 122,
+            speed: 100
+        }
+    },
+
+    nymesis: {
+        name: "Nymesis",
+        types: ["Dark", "Air"],
+        weight: 10,
+        height: 27,
+        baseStats: {
+            hp: 76,
+            energy: 115,
+            attack: 66,
+            defense: 77,
+            attackR: 119,
+            defenseR: 122,
+            speed: 100
+        }
+    },
+
+    metronette: {
+        name: "Metronette",
+        types: ["Dark", "Mind"],
+        weight: 31,
+        height: 38,
+        baseStats: {
+            hp: 83,
+            energy: 128,
+            attack: 84,
+            defense: 69,
+            attackR: 127,
+            defenseR: 79,
+            speed: 105
+        }
+    },
+
+    'metronette-willbound': {
+        name: "Metronette-Willbound",
+        types: ["Dark", "Mind"],
+        weight: 31,
+        height: 38,
+        soulMove: "Sinister Shackles",
+        ability: "Demanding",
+        item: "Metroburst",
+        baseStats: {
+            hp: 53,
+            energy: 118,
+            attack: 119,
+            defense: 119,
+            attackR: 147,
+            defenseR: 54,
+            speed: 115
         }
     },
 
@@ -6711,15 +5483,6 @@ var loomians = {
         weight: 221,
         height: 86,
         baseStats: {
-            hp: 61,
-            energy: 120,
-            attack: 113,
-            defense: 89,
-            attackR: 46,
-            defenseR: 110,
-            speed: 111
-        },
-        gsbStats: {
             hp: 66,
             energy: 120,
             attack: 113,
@@ -6727,33 +5490,6 @@ var loomians = {
             attackR: 66,
             defenseR: 110,
             speed: 111
-        }
-    },
-
-    akhalos: {
-        name: "Akhalos",
-        types: ["Ice", "Water"],
-        abilities: ["Aqua Body"],
-        sAbility: ["Aggressive"],
-        weight: 221,
-        height: 86,
-        baseStats: {
-            hp: 111,
-            energy: 94,
-            attack: 120,
-            defense: 92,
-            attackR: 63,
-            defenseR: 86,
-            speed: 84
-        },
-        gsbStats: {
-            hp: 116,
-            energy: 94,
-            attack: 120,
-            defense: 97,
-            attackR: 73,
-            defenseR: 91,
-            speed: 84
         }
     },
 
@@ -6765,15 +5501,6 @@ var loomians = {
         weight: 155,
         height: 73,
         baseStats: {
-            hp: 55,
-            energy: 100,
-            attack: 115,
-            defense: 80,
-            attackR: 115,
-            defenseR: 80,
-            speed: 105
-        },
-        gsbStats: {
             hp: 55,
             energy: 105,
             attack: 120,
@@ -6793,15 +5520,6 @@ var loomians = {
         height: 77,
         baseStats: {
             hp: 55,
-            energy: 100,
-            attack: 155,
-            defense: 40,
-            attackR: 155,
-            defenseR: 40,
-            speed: 105
-        },
-        gsbStats: {
-            hp: 55,
             energy: 105,
             attack: 165,
             defense: 40,
@@ -6820,15 +5538,6 @@ var loomians = {
         height: 78,
         baseStats: {
             hp: 55,
-            energy: 100,
-            attack: 60,
-            defense: 155,
-            attackR: 60,
-            defenseR: 155,
-            speed: 65
-        },
-        gsbStats: {
-            hp: 55,
             energy: 105,
             attack: 60,
             defense: 165,
@@ -6846,16 +5555,7 @@ var loomians = {
         weight: 64,
         height: 61,
         baseStats: {
-            hp: 55,
-            energy: 100,
-            attack: 85,
-            defense: 85,
-            attackR: 85,
-            defenseR: 85,
-            speed: 155
-        },
-        gsbStats: {
-            hp: 55,
+           hp: 55,
             energy: 105,
             attack: 90,
             defense: 85,
@@ -6865,24 +5565,60 @@ var loomians = {
         }
     },
 
+    odoyaga: {
+        name: "Odoyaga",
+        types: ["Mind", "Air"],
+        weight: 191,
+        height: 74,
+        baseStats: {
+           hp: 93,
+            energy: 95,
+            attack: 103,
+            defense: 109,
+            attackR: 131,
+            defenseR: 73,
+            speed: 71
+        }
+    },
+
+    wabalisc: {
+        name: "Wabalisc",
+        types: ["Ice"],
+        weight: 131,
+        height: 86,
+        baseStats: {
+            hp: 106,
+            energy: 103,
+            attack: 99,
+            defense: 88,
+            attackR: 112,
+            defenseR: 98,
+            speed: 69
+        }
+    },
+
+    akhalos: {
+        name: "Akhalos",
+        types: ["Ice", "Water"],
+        weight: 221,
+        height: 86,
+        baseStats: {
+            hp: 116,
+            energy: 94,
+            attack: 120,
+            defense: 97,
+            attackR: 73,
+            defenseR: 91,
+            speed: 84
+        }
+    },
+
     celesting: {
         name: "Celesting",
-        number: 140,
         types: ["Metal", "Light"],
-        abilities: ["Reverberate"],
-        sAbility: ["Mystic Tone"],
         weight: 21,
         height: 33,
         baseStats: {
-            hp: 125,
-            energy: 125,
-            attack: 53,
-            defense: 74,
-            attackR: 103,
-            defenseR: 79,
-            speed: 91
-        },
-        gsbStats: {
             hp: 125,
             energy: 125,
             attack: 63,
@@ -6893,46 +5629,12 @@ var loomians = {
         }
     },
 
-    odoyaga: {
-        name: "Odoyaga",
-        types: ["Mind", "Air"],
-        weight: 191,
-        height: 74,
-        baseStats: {
-            hp: 83,
-            energy: 90,
-            attack: 93,
-            defense: 109,
-            attackR: 131,
-            defenseR: 73,
-            speed: 71
-        },
-        gsbStats: {
-            hp: 93,
-            energy: 95,
-            attack: 103,
-            defense: 109,
-            attackR: 131,
-            defenseR: 73,
-            speed: 71
-        }
-    },
-
     mimask: {
         name: "Mimask",
         types: ["Dark"],
         weight: 34,
         height: 59,
         baseStats: {
-            hp: 90,
-            energy: 113,
-            attack: 117,
-            defense: 55,
-            attackR: 107,
-            defenseR: 55,
-            speed: 113
-        },
-        gsbStats: {
             hp: 95,
             energy: 113,
             attack: 117,
@@ -6940,6 +5642,31 @@ var loomians = {
             attackR: 107,
             defenseR: 65,
             speed: 113
+        },
+        /*gsbStats: {
+            hp: 95,
+            energy: 113,
+            attack: 117,
+            defense: 65,
+            attackR: 107,
+            defenseR: 65,
+            speed: 113
+        }*/
+    },
+
+    grimyuline: {
+        name: "Grimyuline",
+        types: ["Dark", "Brawler"],
+        weight: 106,
+        height: 98,
+        baseStats: {
+            hp: 101,
+            energy: 78,
+            attack: 107,
+            defense: 110,
+            attackR: 84,
+            defenseR: 97,
+            speed: 98
         }
     },
 
@@ -9185,6 +7912,18 @@ var moves = {
         slap: true
     },
 
+    undermine: {
+        name: "Undermine",
+        power: 70,
+        energy: 35,
+        accuracy: 100,
+        type: "Earth",
+        mr: "Melee",
+        mr1: "Melee Attack",
+        mr2: "Melee Defense",
+        contact: true,
+    },
+
     tailSlap: {
         name: "Tail Slap",
         power: 40,
@@ -9310,10 +8049,21 @@ var moves = {
         mr: "Melee",
         mr1: "Melee Attack",
         mr2: "Melee Defense",
-        contact: true,
         aoe: true,
         slap: true,
         secondaryEffect: true
+    },
+
+    psychalChomp: {
+        name: "Psychal Chomp",
+        power: 80,
+        energy: 40,
+        accuracy: 100,
+        type: "Mind",
+        mr: "Melee",
+        mr1: "Melee Attack",
+        mr2: "Melee Defense",
+        bite: true,
     },
 
     chop: {
@@ -9635,6 +8385,18 @@ var moves = {
         mr: "Ranged",
         mr1: "Ranged Attack",
         mr2: "Ranged Defense",
+    },
+
+    hullabaloo: {
+        name: "Hullabaloo",
+        power: 75,
+        energy: 40,
+        accuracy: 100,
+        type: "Simple",
+        mr: "Ranged",
+        mr1: "Ranged Attack",
+        mr2: "Ranged Defense",
+        secondaryEffect: true
     },
 
     twirlyWhirl: {
@@ -10542,6 +9304,15 @@ var moves = {
         power: 0,
         energy: 45,
         accuracy: "N/A",
+        type: "Ice",
+        mr: "Support"
+    },
+
+    bitterCold: {
+        name: "Bitter Cold",
+        power: 0,
+        energy: 35,
+        accuracy: 90,
         type: "Ice",
         mr: "Support"
     },
@@ -11475,7 +10246,8 @@ var abilities = ["Ability Thief", "Ace", "Adorable", "Aggressive", "Ambush", "An
                  "Partnership", "Rush Hour", "Trader", "Safety Pot", "Gloomy", "Mimic", "Reflective", "Hag", "Foresight", "Demanding", "Ravenous", "Designated Chompers", "Battle Armor", "Mask Swap",
                  "Facade", "Party Trick", "Do or Die", "Wildfire", "Sendoff", "Hydro Vortex", "Motivational", "Soul Siphon", "Pluvial", "Petrifying", "Tumultuous", "Venomous", "Brutal Wrath",
                  "Sky-Borne", "Land-Borne", "Depths-Borne", "All Seeing", "Rain Rush", "Triumph", "Royal Decree", "Thunder Summon", "Recurrent", "Charged Arc","Adaptable", "Heat Summon",
-                 "Rain Summon", "Fog Summon", "Wind Summon", "Inferno", "Cosmic Pressure", "Conspire", "Metamorphosis", "Sob", "Wail", "Seize", "Assertive", "Berserk", "Disenchant", "Impose", "Gorge"];
+                 "Rain Summon", "Fog Summon", "Wind Summon", "Inferno", "Cosmic Pressure", "Conspire", "Metamorphosis", "Sob", "Wail", "Seize", "Assertive", "Berserk", "Disenchant", "Impose", "Gorge",
+                 "Carol", "Fortissimo", "Elusive", "Upper Hand"];
 
 var typeModAbilities = {
     coursingVenom: {
@@ -11686,4 +10458,4 @@ for (let loo in loomians) {
 
 var sets = [];
 
-var changelog = "Added Atomic Hoganosh.";
+var changelog = "Jolly Village Loomians added.";

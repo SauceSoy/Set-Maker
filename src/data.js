@@ -5085,6 +5085,39 @@ var loomians = {
             speed: 103
         }
     },
+
+    snicle: {
+        name: "Snicle",
+        types: ["Ice", "Dark"],
+        weight: 11,
+        height: 37,
+        finalEvo: false,
+        baseStats: {
+            hp: 30,
+            energy: 30,
+            attack: 53,
+            defense: 49,
+            attackR: 34,
+            defenseR: 29,
+            speed: 47
+        }
+    },
+
+    slivyce: {
+        name: "Slivyce",
+        types: ["Ice", "Dark"],
+        weight: 25,
+        height: 86,
+        baseStats: {
+            hp: 83,
+            energy: 83,
+            attack: 102,
+            defense: 103,
+            attackR: 73,
+            defenseR: 61,
+            speed: 88
+        }
+    },
  
     duskit: {
         name: "Duskit",
@@ -5678,20 +5711,18 @@ var loomians = {
 
     'heavy bag': {
         name: "Heavy Bag",
-        number: 9999,
-        types: ["Simple"],
-        abilities: ["Surrogate"],
-        sAbility: ["Idiosyncratic"],
+        types: ["Heavybag"],
+        ability: "Dummy",
         weight: 123,
         height: 200,
         baseStats: {
             hp: 450,
-            energy: 0,
-            attack: 0,
+            energy: 1,
+            attack: 1,
             defense: 100,
-            attackR: 0,
+            attackR: 1,
             defenseR: 100,
-            speed: 0
+            speed: 1
         }
     },
 
@@ -6299,6 +6330,31 @@ var moves = {
         contact: true,
         secondaryEffect: true,
         bite: true
+    },
+
+    icicleFangs: {
+        name: "Icicle Fangs",
+        power: 80,
+        energy: 40,
+        accuracy: 100,
+        type: "Ice",
+        mr: "Melee",
+        mr1: "Melee Attack",
+        mr2: "Melee Defense",
+        contact: true,
+        bite: true
+    },
+
+    spikeRush: {
+        name: "Spike Rush",
+        power: 40,
+        energy: 25,
+        accuracy: 100,
+        type: "Ice",
+        mr: "Melee",
+        mr1: "Melee Attack",
+        mr2: "Melee Defense",
+        priority: true,
     },
 
     naturesRage: {
@@ -10162,9 +10218,11 @@ var types = {
 
     plant: {
         weaknesses: ["fire", "ice", "dark", "bug", "toxic"],
-        resistances: ["plant", "water", "earth", "electric", "light"],
+        resistances: ["plant", "water", "earth", "electric"],
         immunities: ["light"],
-        otherName: "blossom"
+        otherName: "blossom",
+        fungusWeaknesses:["fire", "ice", "light", "bug", "toxic"],
+        fungusImmunities: ["dark"]
     },
 
     electric: {
@@ -10257,6 +10315,13 @@ var types = {
         immunities: [],
         otherName: "martial"
     },
+
+    heavybag: {
+        weaknesses: ["brawler"],
+        resistances: [],
+        immunities: [],
+        otherName: "heavybag"
+    }
 };
 
 var abilities = ["Ability Thief", "Ace", "Adorable", "Aggressive", "Ambush", "Analyze", "Anomaly", "Applied Frustration", "Apprehension", "Aqua Body", "Awakening", "Baneful", "Bitter Touch",
@@ -10276,7 +10341,7 @@ var abilities = ["Ability Thief", "Ace", "Adorable", "Aggressive", "Ambush", "An
                  "Facade", "Party Trick", "Do or Die", "Wildfire", "Sendoff", "Hydro Vortex", "Motivational", "Soul Siphon", "Pluvial", "Petrifying", "Tumultuous", "Venomous", "Brutal Wrath",
                  "Sky-Borne", "Land-Borne", "Depths-Borne", "All Seeing", "Rain Rush", "Triumph", "Royal Decree", "Thunder Summon", "Recurrent", "Charged Arc","Adaptable", "Heat Summon",
                  "Rain Summon", "Fog Summon", "Wind Summon", "Inferno", "Cosmic Pressure", "Conspire", "Metamorphosis", "Sob", "Wail", "Seize", "Assertive", "Berserk", "Disenchant", "Impose", "Gorge",
-                 "Carol", "Fortissimo", "Elusive", "Upper Hand", "Effulgent"];
+                 "Carol", "Fortissimo", "Elusive", "Upper Hand", "Effulgent", "Dummy", "Puncture", "Toxic Sac"];
 
 var typeModAbilities = {
     coursingVenom: {
@@ -10476,9 +10541,11 @@ var items = ["Heavy Shield", "Heavy Armor", "Power Cuffs", "Health Amulet", "Dra
              "Volcanic Ash", "Rageful Plushie", "Clutch Plushie", "Specialty Boots", "Milkshake", "Kabunga Coffee", "Specialty Goggles", "Specialty Gloves"];
 
 for (let ty in types) {
-    items.push(ty.charAt(0).toUpperCase() + ty.slice(1) + " Essence");
-    items.push(types[ty].otherName.charAt(0).toUpperCase() + types[ty].otherName.slice(1) + " Pearl");
-    items.push(types[ty].otherName.charAt(0).toUpperCase() + types[ty].otherName.slice(1) + " Shell");
+    if (types[ty].otherName != "heavybag") {
+        items.push(ty.charAt(0).toUpperCase() + ty.slice(1) + " Essence");
+        items.push(types[ty].otherName.charAt(0).toUpperCase() + types[ty].otherName.slice(1) + " Pearl");
+        items.push(types[ty].otherName.charAt(0).toUpperCase() + types[ty].otherName.slice(1) + " Shell");
+    }
 }
 
 for (let loo in loomians) {
@@ -10487,4 +10554,4 @@ for (let loo in loomians) {
 
 var sets = [];
 
-var changelog = "Added SB Celesting.";
+var changelog = "Added Snicle line.";

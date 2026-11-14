@@ -156,7 +156,7 @@ function createSet(row) {
     if (set.moves.move3 !== "(No Move)") finalText += "- " + set.moves.move3 + "\n";
     if (set.moves.move4 !== "(No Move)") finalText += "- " + set.moves.move4 + "\n";
     
-    return finalText.slice(0 , finalText.length - 1);
+    return finalText;
 }
 
 function setToCalc(stat) {
@@ -207,6 +207,13 @@ function createRow() {
     let atkREV = createInput(0, 200);
     let defREV = createInput(0, 200);
     let spdEV = createInput(0, 200);
+    hpEV.step = 4;
+    energyEV.step = 4;
+    atkEV.step = 4;
+    defEV.step = 4;
+    atkREV.step = 4;
+    defREV.step = 4;
+    spdEV.step = 4;
 
     let hpIV = createInput(0, 40);
     let energyIV = createInput(0, 40);

@@ -5251,25 +5251,6 @@ var loomians = {
         }
     },
 
-    'fenreign-solmane': {
-        name: "Fenreign-Solmane",
-        types: ["Metal", "Light"],
-        soulMove: "Steelspine Surge",
-        ability: "Illuminate",
-        item: "Fenburst M",
-        weight: 24,
-        height: 51,
-        baseStats: {
-            hp: 87,
-            energy: 78,
-            attack: 130,
-            defense: 119,
-            attackR: 54,
-            defenseR: 64,
-            speed: 117
-        }
-    },
-
     'fenreign-ice': {
         name: "Fenreign-Ice",
         types: ["Ice", "Simple"],
@@ -5283,25 +5264,6 @@ var loomians = {
             attackR: 54,
             defenseR: 64,
             speed: 102
-        }
-    },
-
-    'fenreign-lunamane': {
-        name: "Fenreign-Lunamane",
-        types: ["Ice", "Dark"],
-        soulMove: "Frostspine Surge",
-        ability: "Overshadow",
-        item: "Fenburst I",
-        weight: 24,
-        height: 51,
-        baseStats: {
-            hp: 87,
-            energy: 78,
-            attack: 130,
-            defense: 119,
-            attackR: 54,
-            defenseR: 64,
-            speed: 117
         }
     },
 
@@ -5457,7 +5419,6 @@ var loomians = {
     regaliant: {
         name: "Regaliant",
         types: ["Bug", "Metal"],
-        gender: "Female",
         weight: 30,
         height: 51,
         baseStats: {
@@ -8629,18 +8590,6 @@ var moves = {
         contact: true
     },
 
-    frostspineSurge: {
-        name: "Frostspine Surge",
-        power: 125,
-        energy: 0,
-        accuracy: "N/A",
-        type: "Ice",
-        mr: "Melee",
-        mr1: "Melee Attack",
-        mr2: "Melee Defense",
-        aoe: true
-    },
-
     frigidFrenzy: {
         name: "Frigid Frenzy",
         power: 25,
@@ -9800,18 +9749,6 @@ var moves = {
         mr1: "Melee Attack",
         mr2: "Melee Defense",
         contact: true
-    },
-
-    steelspineSurge: {
-        name: "Steelspine Surge",
-        power: 125,
-        energy: 0,
-        accuracy: "N/A",
-        type: "Metal",
-        mr: "Melee",
-        mr1: "Melee Attack",
-        mr2: "Melee Defense",
-        aoe: true
     },
 
     steelGrit: {
@@ -13065,12 +13002,9 @@ for (let ty in types) {
 }
 
 for (let loo in loomians) {
-    if (loomians[loo].item) {
-        if (items.includes(loomians[loo].item)) break;
-        items.push(loomians[loo].item);
-    }    
+    if (loomians[loo].item) items.push(loomians[loo].item);
 }
 
 var sets = [];
 
-var changelog = "Solmane and Lunamane Fenreign added. Updated set imports to be easier to read and share with others.";
+var changelog = "Route 9 Loomians added.";

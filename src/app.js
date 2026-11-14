@@ -1,7 +1,7 @@
 var body = document.getElementById("body");
 var table;
-var headerNames = ["", "", "UPs", "TPs", "Personality", "", "", "", "Moves"];
-var subHeaderNames = ["Loomian", "Set Name", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "1st", "2nd", "3rd", "Ability", "Item", "Level", "Move 1", "Move 2", "Move 3", "Move 4"]
+var headerNames = ["", "UPs", "TPs", "Personality", "", "", "", "Moves"];
+var subHeaderNames = ["Loomian", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "1st", "2nd", "3rd", "Ability", "Item", "Level", "Move 1", "Move 2", "Move 3", "Move 4"]
 let allElements = [];
 
 function createTable() {
@@ -50,66 +50,144 @@ function createTable() {
 }
 
 function saveSets() {
-    let sets = {};
+    let sets = "";
 
     for (let row in allElements) {
-        if (allElements[row][1].value == "" || allElements[row][1].value == undefined) {
+        if (allElements[row][0].value == "None" || allElements[row][0].value == undefined) {
             break;
         }
         let set = createSet(allElements[row]);
-        sets[row] = set;
-    } 
+        if (row != 0) sets += "\n";
+        sets += set;
+    }
 
-    if (Object.keys(sets).length != 0) {
+    document.getElementById("export").value = sets;
+    document.getElementById("export").select();
+    document.execCommand("copy");
+    alert("Copied to clipbord");
+
+    /*if (Object.keys(sets).length != 0) {
         let json = JSON.stringify(sets);
         let pakoStuff = pako.deflate(json, {to: "string"});
         let encoded = btoa(pakoStuff);
-        document.getElementById("export").value = encoded;
+        document.getElementById("export").value = json;
         document.getElementById("export").select();
         document.execCommand("copy");
         alert("Copied to clipbord");
-    }
+    }*/
 }
 function createSet(row) {
     let set = {};
 
     set.name = row[0].value;
-    set.setName = row[1].value;
 
     set.ivs = {};
-    set.ivs.hp = row[2].value;
-    set.ivs.energy = row[3].value;
-    set.ivs.attack = row[4].value;
-    set.ivs.defense = row[5].value;
-    set.ivs.attackR = row[6].value;
-    set.ivs.defenseR = row[7].value;
-    set.ivs.speed = row[8].value;
+    set.ivs.hp = row[1].value;
+    set.ivs.energy = row[2].value;
+    set.ivs.attack = row[3].value;
+    set.ivs.defense = row[4].value;
+    set.ivs.attackR = row[5].value;
+    set.ivs.defenseR = row[6].value;
+    set.ivs.speed = row[7].value;
 
     set.evs = {};
-    set.evs.hp = row[9].value;
-    set.evs.energy = row[10].value;
-    set.evs.attack = row[11].value;
-    set.evs.defense = row[12].value;
-    set.evs.attackR = row[13].value;
-    set.evs.defenseR = row[14].value;
-    set.evs.speed = row[15].value;
+    set.evs.hp = row[8].value;
+    set.evs.energy = row[9].value;
+    set.evs.attack = row[10].value;
+    set.evs.defense = row[11].value;
+    set.evs.attackR = row[12].value;
+    set.evs.defenseR = row[13].value;
+    set.evs.speed = row[14].value;
     
-    set.posNature = row[16].value;
-    set.negNature = row[17].value;
-    set.veryNature = row[18].value;
+    set.posNature = row[15].value;
+    set.negNature = row[16].value;
+    set.veryNature = row[17].value;
 
-    set.ability = row[19].value;
-    set.item = row[20].value;
-    set.level = row[21].value;
+    set.ability = row[18].value;
+    set.item = row[19].value;
+    set.level = row[20].value;
 
     set.moves = {};
-    set.moves.move1 = row[22].value;
-    set.moves.move2 = row[23].value;
-    set.moves.move3 = row[24].value;
-    set.moves.move4 = row[25].value;
+    set.moves.move1 = row[21].value;
+    set.moves.move2 = row[22].value;
+    set.moves.move3 = row[23].value;
+    set.moves.move4 = row[24].value;
 
-    return set;
+    let finalText = set.name;
+    if (set.item != "None") finalText += " @ " + set.item;
+    finalText += "\n";
+    if (set.ability != "None") finalText += "Ability: " + set.ability + "\n";
+    let tpsArray = [];
+    for (let stat in set.evs) {
+        let tp = set.evs[stat] ? set.evs[stat] : 0;
+        if (tp > 0) {
+            stat = setToCalc(stat.toLowerCase());
+            tpsArray.push(tp + " " + stat);
+        }
+    }
+    if (tpsArray.length > 0) {
+        finalText += "TPs: ";
+        finalText += serialize(tpsArray, " / ");
+        finalText += "\n";
+    }
+    if (set.posNature != "none" || set.negNature != "none" || set.veryNature != "none") {
+        finalText += "Personality: ";
+        if (set.posNature != "none") finalText += set.posNature.charAt(0).toUpperCase() + set.posNature.slice(1) + ", ";
+        if (set.negNature != "none") finalText += set.negNature.charAt(0).toUpperCase() + set.negNature.slice(1) + ", ";
+        if (set.veryNature != "none") finalText += set.veryNature.charAt(0).toUpperCase() + "ery " + set.veryNature.charAt(1).toUpperCase() + set.veryNature.slice(2);
+        if (set.veryNature == "none") finalText = finalText.slice(0, finalText.length - 2);
+        finalText += "\n";
+    }   
+    let upsArray = [];
+    for (let stat in set.ivs) {
+        let up = set.ivs[stat] ? set.ivs[stat] : 0;
+        if (up < 40) {
+            stat = setToCalc(stat.toLowerCase());
+            upsArray.push(up + " " + stat);
+        }
+    }
+    if (upsArray.length > 0) {
+        finalText += "UPs: ";
+        finalText += serialize(upsArray, " / ");
+        finalText += "\n";
+    }
+    if (set.moves.move1 !== "(No Move)") finalText += "- " + set.moves.move1 + "\n";
+    if (set.moves.move2 !== "(No Move)") finalText += "- " + set.moves.move2 + "\n";
+    if (set.moves.move3 !== "(No Move)") finalText += "- " + set.moves.move3 + "\n";
+    if (set.moves.move4 !== "(No Move)") finalText += "- " + set.moves.move4 + "\n";
+    
+    return finalText.slice(0 , finalText.length - 1);
 }
+
+function setToCalc(stat) {
+    switch (stat) {
+    case 'hp':
+        return "HP";
+    case 'energy':
+        return "Energy";
+    case 'attack':
+        return "Attack";
+    case 'defense':
+        return "Defense";
+    case 'attackr':
+        return "AttackR";
+    case 'defenser':
+        return "DefenseR";
+    case 'speed':
+        return "Speed"; 
+    }
+}
+
+function serialize(array, separator) {
+    let text = "";
+    for (let i = 0; i < array.length; i++) {
+        if (i < array.length - 1) {
+            text += array[i] + separator;
+        } else text += array[i];
+    }
+    return text;
+}
+
 function createHeader(text) {
     let hr = document.createElement("th");
     hr.innerHTML = text;
@@ -121,7 +199,6 @@ function createRow() {
     let elements = [];
 
     let pokeDropdown = createPokeDropdown();
-    let setNameInput = createTextInput();
     
     let hpEV = createInput(0, 200);
     let energyEV = createInput(0, 200);
@@ -162,7 +239,7 @@ function createRow() {
     let moveThree = createMoveDropdown();
     let moveFour = createMoveDropdown();
 
-    elements.push(pokeDropdown, setNameInput, hpIV, energyIV, atkIV, defIV, atkRIV, defRIV, spdIV, hpEV, energyEV, atkEV, defEV, atkREV, defREV, spdEV);
+    elements.push(pokeDropdown, hpIV, energyIV, atkIV, defIV, atkRIV, defRIV, spdIV, hpEV, energyEV, atkEV, defEV, atkREV, defREV, spdEV);
     elements.push(posNat, negNat, veryNat, abilityDropdown, itemDropdown, level, moveOne, moveTwo, moveThree, moveFour);
 
     allElements.push(elements);
@@ -176,7 +253,7 @@ function createRow() {
 }
 
 function createTenRows(tbody) {
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 7; i++) {
         let newRow = createRow();
         tbody.appendChild(newRow);
     }
@@ -186,7 +263,7 @@ function createTenRows(tbody) {
 function createPokeDropdown() {
     let dropdown = document.createElement("select");
     dropdown.className = "pokeSelect";
-
+    dropdown.options[0] = new Option("None");
     for (let loom in loomians) {
         dropdown.options[dropdown.options.length] = new Option(loomians[loom].name); 
         

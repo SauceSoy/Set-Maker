@@ -1033,8 +1033,7 @@ var loomians = {
         name: "Shawchi",
         number: 51,
         types: ["Mind"],
-        abilities: ["Enchant"],
-        sAbility: ["Sharp Focus"],
+        gender: "Female",
         weight: 19,
         height: 45,
         baseStats: {
@@ -1485,6 +1484,7 @@ var loomians = {
         name: "Cafnote-Female",
         number: 69,
         types: ["Simple"],
+        gender: "Female",
         abilities: ["Adorable", "Virtuoso"],
         sAbility: ["Tone Deaf"],
         finalEvo: false,
@@ -1544,6 +1544,7 @@ var loomians = {
         name: "Mootune",
         number: 71,
         types: ["Simple"],
+        gender: "Female",
         abilities: ["Adorable", "Virtuoso"],
         sAbility: ["Tone Deaf"],
         weight: 146,
@@ -3219,7 +3220,6 @@ var loomians = {
         types: ["Water", "Plant"],
         weight: 83,
         height: 87,
-        finalEvo: false,
         baseStats: {
             hp: 72,
             energy: 79,
@@ -3690,7 +3690,6 @@ var loomians = {
         sAbility: ["Anomaly"],
         weight: 171,
         height: 119,
-        finalEvo: false,
         baseStats: {
             hp: 81,
             energy: 89,
@@ -5252,6 +5251,25 @@ var loomians = {
         }
     },
 
+    'fenreign-solmane': {
+        name: "Fenreign-Solmane",
+        types: ["Metal", "Light"],
+        soulMove: "Steelspine Surge",
+        ability: "Illuminate",
+        item: "Fenburst M",
+        weight: 24,
+        height: 51,
+        baseStats: {
+            hp: 87,
+            energy: 78,
+            attack: 130,
+            defense: 119,
+            attackR: 54,
+            defenseR: 64,
+            speed: 117
+        }
+    },
+
     'fenreign-ice': {
         name: "Fenreign-Ice",
         types: ["Ice", "Simple"],
@@ -5265,6 +5283,25 @@ var loomians = {
             attackR: 54,
             defenseR: 64,
             speed: 102
+        }
+    },
+
+    'fenreign-lunamane': {
+        name: "Fenreign-Lunamane",
+        types: ["Ice", "Dark"],
+        soulMove: "Frostspine Surge",
+        ability: "Overshadow",
+        item: "Fenburst I",
+        weight: 24,
+        height: 51,
+        baseStats: {
+            hp: 87,
+            energy: 78,
+            attack: 130,
+            defense: 119,
+            attackR: 54,
+            defenseR: 64,
+            speed: 117
         }
     },
 
@@ -5420,6 +5457,7 @@ var loomians = {
     regaliant: {
         name: "Regaliant",
         types: ["Bug", "Metal"],
+        gender: "Female",
         weight: 30,
         height: 51,
         baseStats: {
@@ -5486,6 +5524,7 @@ var loomians = {
     trilobit: {
         name: "Trilobit",
         types: ["Bug"],
+        gender: "Female",
         weight: 8,
         height: 26,
         finalEvo: false,
@@ -5503,6 +5542,7 @@ var loomians = {
     skirmapod: {
         name: "Skirmapod",
         types: ["Bug", "Brawler"],
+        gender: "Female",
         weight: 38,
         height: 58,
         baseStats: {
@@ -6526,8 +6566,8 @@ var loomians = {
     kelpos: {
         name: "Kelpos",
         types: ["Ice", "Plant"],
-        weight: 5,
-        height: 19,
+        weight: 16,
+        height: 45,
         finalEvo: false,
         baseStats: {
             hp: 70,
@@ -6543,8 +6583,8 @@ var loomians = {
     slugoona: {
         name: "Slugoona",
         types: ["Ice", "Plant"],
-        weight: 5,
-        height: 19,
+        weight: 75,
+        height: 88,
         baseStats: {
             hp: 87,
             energy: 91,
@@ -6595,7 +6635,6 @@ var loomians = {
         types: ["Bug", "Fire"],
         weight: 76,
         height: 78,
-        finalEvo: false,
         baseStats: {
             hp: 75,
             energy: 81,
@@ -7108,6 +7147,7 @@ var loomians = {
     odoyaga: {
         name: "Odoyaga",
         types: ["Mind", "Air"],
+        gender: "Female",
         weight: 191,
         height: 74,
         baseStats: {
@@ -8589,6 +8629,18 @@ var moves = {
         contact: true
     },
 
+    frostspineSurge: {
+        name: "Frostspine Surge",
+        power: 125,
+        energy: 0,
+        accuracy: "N/A",
+        type: "Ice",
+        mr: "Melee",
+        mr1: "Melee Attack",
+        mr2: "Melee Defense",
+        aoe: true
+    },
+
     frigidFrenzy: {
         name: "Frigid Frenzy",
         power: 25,
@@ -9748,6 +9800,18 @@ var moves = {
         mr1: "Melee Attack",
         mr2: "Melee Defense",
         contact: true
+    },
+
+    steelspineSurge: {
+        name: "Steelspine Surge",
+        power: 125,
+        energy: 0,
+        accuracy: "N/A",
+        type: "Metal",
+        mr: "Melee",
+        mr1: "Melee Attack",
+        mr2: "Melee Defense",
+        aoe: true
     },
 
     steelGrit: {
@@ -11088,6 +11152,7 @@ var moves = {
         mr: "Ranged",
         mr1: "Ranged Attack",
         mr2: "Ranged Defense",
+        aoe: true,
         stat: {amount: -1, battle: "Offense", stat: "AttackR"}
     },
 
@@ -13005,4 +13070,4 @@ for (let loo in loomians) {
 
 var sets = [];
 
-var changelog = "Route 9 Loomians added.";
+var changelog = "Solmane and Lunamane Fenreign added. Updated set imports to be easier to read and share with others.";
